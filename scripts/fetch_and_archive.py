@@ -45,6 +45,11 @@ def fetch_and_save(api_name, url, cache):
     抓取 API 数据，如果与上次哈希不同，则保存到 data/ 并更新缓存
     返回：是否有任何文件被保存（bool）
     """
+    if '?' in url:
+        url += f'&_t={int(time.time())}'
+    else:
+        url += f'?_t={int(time.time())}'
+        
     try:
         resp = requests.get(url, headers=REQUEST_HEADERS, timeout=REQUEST_TIMEOUT)
         resp.raise_for_status()
