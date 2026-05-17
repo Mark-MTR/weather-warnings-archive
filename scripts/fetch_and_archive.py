@@ -24,14 +24,14 @@ def load_cache():
     """读取上次的 hash 缓存，若不存在返回空字典"""
     if not os.path.exists(CACHE_FILE):
         return {}
-    with 打开(CACHE_FILE, "r", encoding="utf-8") as f:
+    with open(CACHE_FILE, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
 def save_cache(cache_dict):
     """保存 hash 缓存"""
     os.makedirs(CACHE_DIR, exist_ok=True)
-    with 打开(CACHE_FILE, "w", encoding="utf-8") as f:
+    with open(CACHE_FILE, "w", encoding="utf-8") as f:
         json.dump(cache_dict, f, indent=2)
 
 
@@ -61,7 +61,7 @@ def fetch_and_save(api_name, url, cache):
         return False
 
     # 有更新，写入年月目录
-    现在 = datetime.now()  # 使用东八区时间，需在环境中设置 TZ=Asia/Shanghai
+    now = datetime.now()  # 使用东八区时间，需在环境中设置 TZ=Asia/Shanghai
     dir_path = os.path.join(DATA_DIR, str(now.year), f"{now.month:02d}")
     os.makedirs(dir_path, exist_ok=True)
 
@@ -69,8 +69,8 @@ def fetch_and_save(api_name, url, cache):
     filename = f"{api_name}_{timestamp}.json"
     filepath = os.path.join(dir_path, filename)
 
-    with 打开(filepath, "w", encoding="utf-8") as f:
-        f.撰写(content)
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write(content)
 
     cache[api_name] = new_hash
     print(f"[存档] {filepath}")
