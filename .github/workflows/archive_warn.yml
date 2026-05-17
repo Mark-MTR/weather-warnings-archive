@@ -1,6 +1,6 @@
-名字: Archive Weather Warnings
+name: Archive Weather Warnings
 
-于:
+on:
   schedule:
     # 每20分钟执行一次（UTC时间）
     - cron: '*/20 * * * *'
@@ -8,7 +8,7 @@
 
 # 赋予写入仓库内容的权限
 permissions:
-  contents: 撰写
+  contents: write
 
 jobs:
   archive:
@@ -19,15 +19,15 @@ jobs:
       TZ: Asia/Shanghai  # 让脚本内 datetime.now() 使用北京时间
 
     steps:
-      - 名字: 检出仓库
+      - name: 检出仓库
         uses: actions/checkout@v4
 
-      - 名字: 设置 Python
+      - name: 设置 Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - 名字: 恢复哈希缓存
+      - name: 恢复哈希缓存
         uses: actions/cache@v4
         with:
           path: .cache
@@ -36,13 +36,13 @@ jobs:
           # 若 key 未命中，则按前缀回退到最近一次缓存
           restore-keys: weather-hash-${{ runner.os }}-
 
-      - 名字: 安装依赖
+      - name: 安装依赖
         run: pip install requests
 
-      - 名字: 抓取并归档
+      - name: 抓取并归档
         run: python scripts/fetch_and_archive.py
 
-      - 名字: 提交变更
+      - name: 提交变更
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "archive: 预警数据更新 [skip ci]"
