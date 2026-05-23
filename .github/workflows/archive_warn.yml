@@ -31,10 +31,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .cache
-          # 用缓存文件自身的哈希生成 key，内容变化时自动保存新缓存
-          key: weather-hash-${{ runner.os }}-${{ hashFiles('.cache/last_hash.json') }}
-          # 若 key 未命中，则按前缀回退到最近一次缓存
-          restore-keys: weather-hash-${{ runner.os }}-
+          key: weather-hash-${{ runner.os }}-v1   # 固定 key，例如加上版本号
+          restore-keys: |
+            weather-hash-${{ runner.os }}-
 
       - name: 安装依赖
         run: pip install requests
