@@ -20,6 +20,25 @@ DATA_DIR = "data"
 REQUEST_HEADERS = {"User-Agent": "GitHub-Actions-Archive/1.0"}
 REQUEST_TIMEOUT = 15  # 秒
 
+
+# ---------- 可选：稳定哈希（只对预警数据本体求哈希，忽略时间戳等元字段）----------
+# 如果将来发现 API 返回内容中包含每次都在变的时间戳，可以启用下面的函数
+# 使用方法：将 fetch_and_save 里的 compute_hash(content) 替换为 stable_hash(content)
+"""
+def stable_hash(content: str) -> str:
+    try:
+        data = json.loads(content)
+        # 剔除常见的时间字段（请根据实际 API 的字段名调整）
+        for field in ["updateTime", "pubTime", "timestamp", "fetchTime", "生成时间"]:
+            data.pop(field, None)
+        # 如果数据多层嵌套，可递归清理，这里只处理了第一层
+        stable_str = json.dumps(data, sort_keys=True, ensure_ascii=False)
+        return hashlib.md5(stable_str.encode("utf-8")).hexdigest()
+    except Exception:
+        return hashlib.md5(content.encode("utf-8")).hexdigest()
+"""
+
+
 # ---------- 工具函数 ----------
 def load_cache():
     """读取上次的 hash 缓存，若不存在返回空字典"""
@@ -46,7 +65,6 @@ def fetch_and_save(api_name, url, cache):
     抓取 API 数据，如果与上次哈希不同，则保存到 data/ 并更新缓存
     返回：是否有任何文件被保存（bool）
     """
-        
     try:
         resp = requests.get(url, headers=REQUEST_HEADERS, timeout=REQUEST_TIMEOUT)
         resp.raise_for_status()
@@ -55,8 +73,11 @@ def fetch_and_save(api_name, url, cache):
         print(f"[错误] 抓取 {api_name} 失败: {e}", file=sys.stderr)
         return False
 
-    new_hash = compute_hash(content)
+    new_hash = compute_hash(content)   # 若要启用稳定哈希，改为 stable_hash(content)
     old_hash = cache.get(api_name, "")
+
+    # 调试输出：打印旧哈希和新哈希，便于排查问题（可保留）
+    print(f"[哈希] {api_name}  旧: {old_hash if old_hash else '(空)'}  新: {new_hash}")
 
     if new_hash == old_hash:
         print(f"[跳过] {api_name} 无更新")
