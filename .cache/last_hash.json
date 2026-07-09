@@ -1,9 +1,9 @@
 {
   "szWarn_all": "d751713988987e9331980363e24189ce",
   "szAlarm": "02bf5f1bf30fd338028dd3dde72fa21c",
-  "hk_swt": "3b8ea86e44293fcbb58a82924da00846",
+  "hk_swt": "1b2c3a2c2df8082cf529ac40f8fb5fec",
   "mo_specInfo": "085dec8391ad8eefab0d5c89fe6f7cb6",
-  "mo_specInfo2": "0bccb41458495a5e8505810dbc43079f",
+  "mo_specInfo2": "76c3690a5cdc8ea6c580deaca7603de0",
   "mo_specInfo3": "cd07dd13e9090d6f6412a574c12e249d",
   "mo_specInfo4": "87ee4e268b0037fa075cf8f8caae166d",
   "mo_rainstorm": "6eced944b0a34ea1da97f95ed4b92096",
@@ -12,6 +12,6 @@
   "mo_typhoon": "1e184f3d2d9d80e8897a67a9392ebce0",
   "mo_stormsurge": "dcd5e3dfd023c5b1dcba0c8f67ad85d9",
   "mo_tsunami": "5384e13d7b3c1b9ff1209c1c5032ed5f",
-  "mo_temperatureAlert": "516c9b14beedc7c14f52c0c55cc34d9b",
+  "mo_temperatureAlert": "62fbde6c7e848af55155925cb4b727ca",
   "mo_tempDropAlert": "2ea742635866298df4fde9e128f18adb"
 }
