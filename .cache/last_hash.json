@@ -1,5 +1,5 @@
 {
-  "szWarn_all": "44d342c62464cb3364a664ff8b731a1c",
+  "szWarn_all": "4692ff04aa8d2860450cf01adb3fe700",
   "szAlarm": "69c28ea82cdf50e19e154d64239fab6f",
   "hk_swt": "47c062abae39623c9abb29d3a971b575",
   "mo_specInfo": "eed5bc46d391881e183b0e975c2c1825",
@@ -12,6 +12,6 @@
   "mo_typhoon": "56e69905861fdad7824079d2bde6ffaa",
   "mo_stormsurge": "dcd5e3dfd023c5b1dcba0c8f67ad85d9",
   "mo_tsunami": "5384e13d7b3c1b9ff1209c1c5032ed5f",
-  "mo_temperatureAlert": "f87c25ddfeacebf7d3ffb056d5823d16",
+  "mo_temperatureAlert": "774c2091453f3996cc9c3e2ef193138d",
   "mo_tempDropAlert": "2ea742635866298df4fde9e128f18adb"
 }
