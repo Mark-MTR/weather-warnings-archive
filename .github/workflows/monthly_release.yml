@@ -1,0 +1,69 @@
+name: Monthly Archive Release
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'   # 每月1号 UTC 00:00
+  workflow_dispatch:       # 也可以手动触发，方便测试
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Compute last month
+        id: date
+        run: |
+          # 计算上个月的年和月
+          last_month=$(date -d "last month" +%Y/%m)
+          last_year=$(date -d "last month" +%Y)
+          last_month_num=$(date -d "last month" +%m)
+          echo "last_month=$last_month" >> $GITHUB_OUTPUT
+          echo "last_year=$last_year" >> $GITHUB_OUTPUT
+          echo "last_month_num=$last_month_num" >> $GITHUB_OUTPUT
+
+      - name: Create archive of last month data
+        run: |
+          mkdir -p release
+          tar -czf release/weather-warnings-${{ steps.date.outputs.last_year }}-${{ steps.date.outputs.last_month_num }}.tar.gz \
+              data/${{ steps.date.outputs.last_year }}/${{ steps.date.outputs.last_month_num }}
+          # 如果还想同时打包整个 data 目录，可以调整
+
+      - name: Create GitHub Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: "archive-${{ steps.date.outputs.last_year }}-${{ steps.date.outputs.last_month_num }}"
+          release_name: "Weather Warnings Archive - ${{ steps.date.outputs.last_year }}-${{ steps.date.outputs.last_month_num }}"
+          body: "Monthly archive for ${{ steps.date.outputs.last_year }}/${{ steps.date.outputs.last_month_num }}"
+          draft: false
+          prerelease: false
+
+      - name: Upload Release Asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./release/weather-warnings-${{ steps.date.outputs.last_year }}-${{ steps.date.outputs.last_month_num }}.tar.gz
+          asset_name: weather-warnings-${{ steps.date.outputs.last_year }}-${{ steps.date.outputs.last_month_num }}.tar.gz
+          asset_content_type: application/gzip
+
+      # 可选：清理仓库中已归档的月份目录
+      - name: Remove archived month from repository
+        run: |
+          rm -rf data/${{ steps.date.outputs.last_year }}/${{ steps.date.outputs.last_month_num }}
+          if [ -z "$(ls -A data/${{ steps.date.outputs.last_year }})" ]; then
+            rm -rf data/${{ steps.date.outputs.last_year }}
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Remove archived data for ${{ steps.date.outputs.last_year }}/${{ steps.date.outputs.last_month_num }}" || echo "Nothing to commit"
+          git push
