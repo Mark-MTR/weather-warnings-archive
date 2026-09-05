@@ -11,6 +11,8 @@ import requests
 APIS = {
     "szWarn_all": "https://weather.121.com.cn/data_cache/szWeather/warn/szWarn_all.json",
     "szAlarm": "https://weather.121.com.cn/data_cache/szWeather/alarm/szAlarm.json",
+    "szImportantTips": "https://weather.121.com.cn/data_cache/szWeather/szImportantTips.json",
+    "szWarnPre": "https://tf.121.com.cn/weather/typhoonWeb/lwsWarnpre.txt",
     "hk_swt": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=swt&lang=sc",
     # 澳门 API（全部使用 POST）
     "mo_specInfo": {
