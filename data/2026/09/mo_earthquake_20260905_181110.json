@@ -1,0 +1,1 @@
+{"Seismic":{"$":{"xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","xsi:noNamespaceSchemaLocation":"sisReport.xsd"},"System":[{"SysAuthor":["SMG-CVS"],"SysPubdate":["2026-08-26 15:20"],"SysLanguage":[""]}],"Custom":[{"SeismicReport":[{"Inforce":["0"],"Headmsg":["0"],"ValidFor":[""],"ExpireIn":[""],"Content":[""],"Title":[""],"TTS":[""],"Misc":[""],"SMS":[""],"BC":[""]}]}]}}
