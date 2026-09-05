@@ -87,6 +87,30 @@ APIS = {
         "headers": {"Content-Type": "application/json"},
         "body": {},
     },
+    "mo_hcAir": {
+        "url": "https://new-api.smg.gov.mo/weather_v2?selection=c_hc_air",
+        "method": "POST",
+        "headers": {"Content-Type": "application/json"},
+        "body": {},
+    },
+    "mo_earthquake": {
+        "url": "https://new-api.smg.gov.mo/weather_v2?selection=earthquake",
+        "method": "POST",
+        "headers": {"Content-Type": "application/json"},
+        "body": {},
+    },
+    "mo_SSprob": {
+        "url": "https://new-api.smg.gov.mo/weather_v2?selection=SS_prob",
+        "method": "POST",
+        "headers": {"Content-Type": "application/json"},
+        "body": {},
+    },
+    "mo_TCprob": {
+        "url": "https://new-api.smg.gov.mo/weather_v2?selection=TC_prob",
+        "method": "POST",
+        "headers": {"Content-Type": "application/json"},
+        "body": {},
+    },
 }
 
 CACHE_DIR = ".cache"
