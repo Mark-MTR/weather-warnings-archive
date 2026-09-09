@@ -18,5 +18,6 @@
   "mo_hcAir": "d9281bfbb453234507acf3c9f4529881",
   "mo_earthquake": "bcaf259022a1ce9f0b6ea8b054cdd0d7",
   "mo_SSprob": "3539dfaba199e8b0cb4b25e6f33d6b46",
-  "mo_TCprob": "16ba783d2aede76395438d090718daef"
+  "mo_TCprob": "16ba783d2aede76395438d090718daef",
+  "szWarnPre": "474b557ef5c09952cf57eb11c538c982"
 }
