@@ -5,130 +5,84 @@ import sys
 import time
 from datetime import datetime
 import requests
+import xml.etree.ElementTree as ET
 
 # ---------- 配置 ----------
-# 每个条目可以只写 url（默认 GET），也可以用字典指定 method / headers 等
+# 每个条目可以只写 url（默认 GET、json）
+# 字典模式支持：method / headers / body / type:xml|json
 APIS = {
     "szWarn_all": "https://weather.121.com.cn/data_cache/szWeather/warn/szWarn_all.json",
     "szAlarm": "https://weather.121.com.cn/data_cache/szWeather/alarm/szAlarm.json",
     "szImportantTips": "https://weather.121.com.cn/data_cache/szWeather/szImportantTips.json",
     "szWarnPre": "https://tf.121.com.cn/weather/typhoonWeb/lwsWarnpre.txt",
     "hk_swt": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=swt&lang=sc",
-    # 澳门 API（全部使用 POST）
-    "mo_specInfo": {
-        "url": "https://new-api.smg.gov.mo/weather_v2?selection=specInfo",
-        "method": "POST",
-        "headers": {"Content-Type": "application/json"},
-        "body": {},   # 如有需要可填入请求体
+    "mo_specInfo_xml": {
+        "url": "https://xml.dsmg.gov.mo/specInfo.xml",
+        "method": "GET",
+        "type": "xml",
     },
-    "mo_specInfo2": {
-        "url": "https://new-api.smg.gov.mo/weather_v2?selection=specInfo2",
-        "method": "POST",
-        "headers": {"Content-Type": "application/json"},
-        "body": {},
+    "mo_specInfo2_xml": {
+        "url": "https://xml.dsmg.gov.mo/specInfo2.xml",
+        "method": "GET",
+        "type": "xml",
     },
-    "mo_specInfo3": {
-        "url": "https://new-api.smg.gov.mo/weather_v2?selection=specInfo3",
-        "method": "POST",
-        "headers": {"Content-Type": "application/json"},
-        "body": {},
+    "mo_specInfo3_xml": {
+        "url": "https://xml.dsmg.gov.mo/specInfo3.xml",
+        "method": "GET",
+        "type": "xml",
     },
-    "mo_specInfo4": {
-        "url": "https://new-api.smg.gov.mo/weather_v2?selection=specInfo4",
-        "method": "POST",
-        "headers": {"Content-Type": "application/json"},
-        "body": {},
+    "mo_specInfo4_xml": {
+        "url": "https://xml.dsmg.gov.mo/specInfo4.xml",
+        "method": "GET",
+        "type": "xml",
     },
-    "mo_rainstorm": {
-        "url": "https://new-api.smg.gov.mo/weather_v2?selection=rainstorm&lang=c",
-        "method": "POST",
-        "headers": {"Content-Type": "application/json"},
-        "body": {},
+    "mo_SS_prob_xml": {
+        "url": "https://xml.dsmg.gov.mo/SS_prob.xml",
+        "method": "GET",
+        "type": "xml",
     },
-    "mo_thunderstorm": {
-        "url": "https://new-api.smg.gov.mo/weather_v2?selection=thunderstorm&lang=c",
-        "method": "POST",
-        "headers": {"Content-Type": "application/json"},
-        "body": {},
+    "mo_TC_prob_xml": {
+        "url": "https://xml.dsmg.gov.mo/TC_prob.xml",
+        "method": "GET",
+        "type": "xml",
     },
-    "mo_monsoon": {
-        "url": "https://new-api.smg.gov.mo/weather_v2?selection=monsoon&lang=c",
-        "method": "POST",
-        "headers": {"Content-Type": "application/json"},
-        "body": {},
+    "mo_hc_air_xml": {
+        "url": "https://xml.dsmg.gov.mo/hc_air.xml",
+        "method": "GET",
+        "type": "xml",
     },
-    "mo_typhoon": {
-        "url": "https://new-api.smg.gov.mo/weather_v2?selection=typhoon&lang=c",
-        "method": "POST",
-        "headers": {"Content-Type": "application/json"},
-        "body": {},
+    "mo_tempDropAlert_xml": {
+        "url": "https://xml.dsmg.gov.mo/tempDropAlert.xml",
+        "method": "GET",
+        "type": "xml",
     },
-    "mo_stormsurge": {
-        "url": "https://new-api.smg.gov.mo/weather_v2?selection=stormsurge&lang=c",
-        "method": "POST",
-        "headers": {"Content-Type": "application/json"},
-        "body": {},
+    "mo_temperatureAlert_xml": {
+        "url": "https://xml.dsmg.gov.mo/temperatureAlert.xml",
+        "method": "GET",
+        "type": "xml",
     },
-    "mo_tsunami": {
-        "url": "https://new-api.smg.gov.mo/weather_v2?selection=tsunami&lang=c",
-        "method": "POST",
-        "headers": {"Content-Type": "application/json"},
-        "body": {},
-    },
-    "mo_temperatureAlert": {
-        "url": "https://new-api.smg.gov.mo/weather_v2?selection=temperatureAlert",
-        "method": "POST",
-        "headers": {"Content-Type": "application/json"},
-        "body": {},
-    },
-    "mo_tempDropAlert": {
-        "url": "https://new-api.smg.gov.mo/weather_v2?selection=tempDropAlert",
-        "method": "POST",
-        "headers": {"Content-Type": "application/json"},
-        "body": {},
-    },
-    "mo_hcAir": {
-        "url": "https://new-api.smg.gov.mo/weather_v2?selection=c_hc_air",
-        "method": "POST",
-        "headers": {"Content-Type": "application/json"},
-        "body": {},
-    },
-    "mo_earthquake": {
-        "url": "https://new-api.smg.gov.mo/weather_v2?selection=earthquake",
-        "method": "POST",
-        "headers": {"Content-Type": "application/json"},
-        "body": {},
-    },
-    "mo_SSprob": {
-        "url": "https://new-api.smg.gov.mo/weather_v2?selection=SS_prob",
-        "method": "POST",
-        "headers": {"Content-Type": "application/json"},
-        "body": {},
-    },
-    "mo_TCprob": {
-        "url": "https://new-api.smg.gov.mo/weather_v2?selection=TC_prob",
-        "method": "POST",
-        "headers": {"Content-Type": "application/json"},
-        "body": {},
-    },
+    "mo_rainstormWarning": "https://cdn.dsmg.gov.mo/uploads/weather/zh-CN/rainstormWarning.json",
+    "mo_thunderstormWarning": "https://cdn.dsmg.gov.mo/uploads/weather/zh-CN/thunderstormWarning.json",
+    "mo_stormsurgeWarning": "https://cdn.dsmg.gov.mo/uploads/weather/zh-CN/stormsurgeWarning.json",
+    "mo_typhoonWarning": "https://cdn.dsmg.gov.mo/uploads/weather/zh-CN/typhoonWarning.json",
+    "mo_monsoonWarning": "https://cdn.dsmg.gov.mo/uploads/weather/zh-CN/monsoonWarning.json",
+    "mo_activeWarning": "https://cdn.dsmg.gov.mo/uploads/weather/zh-CN/activeWarning.json",
+    "mo_invalidWarning": "https://cdn.dsmg.gov.mo/uploads/weather/zh-CN/invalidWarning.json",
+    "mo_tsunamiWarning": "https://cdn.dsmg.gov.mo/uploads/weather/zh-CN/tsunamiWarning.json",
+    "mo_specialAlert": "https://cdn.dsmg.gov.mo/uploads/weather/zh-CN/specialAlert.json",
 }
 
 CACHE_DIR = ".cache"
 CACHE_FILE = os.path.join(CACHE_DIR, "last_hash.json")
 DATA_DIR = "data"
 DEFAULT_HEADERS = {"User-Agent": "GitHub-Actions-Archive/1.0"}
-REQUEST_TIMEOUT = 30  # 增加超时时间，因为澳门 API 可能响应稍慢
+REQUEST_TIMEOUT = 30
 
 
-# ---------- 稳定哈希函数（剔除动态字段）----------
-def stable_hash(content: str) -> str:
-    """
-    只对预警数据本体求哈希，忽略时间戳等元字段。
-    可根据实际情况调整需要剔除的字段名。
-    """
+# ---------- JSON稳定哈希（原有逻辑） ----------
+def stable_hash_json(content: str) -> str:
     try:
         data = json.loads(content)
-        # 递归剔除常见的时间字段
         def remove_dynamic(obj):
             if isinstance(obj, dict):
                 for key in list(obj.keys()):
@@ -146,9 +100,38 @@ def stable_hash(content: str) -> str:
         return hashlib.md5(content.encode("utf-8")).hexdigest()
 
 
-def compute_hash(text: str) -> str:
-    """默认用 stable_hash，避免动态字段导致重复存档"""
-    return stable_hash(text)
+# ---------- XML稳定哈希（新增） ----------
+def stable_hash_xml(content: str) -> str:
+    """
+    XML版本：剔除时间类动态节点，生成稳定序列化文本求md5
+    注意：xmlns命名空间、属性会保留；只删tag名匹配的动态节点
+    """
+    try:
+        root = ET.fromstring(content)
+        dynamic_tags = {"updatetime", "pubtime", "timestamp", "fetchtime", "生成时间"}
+
+        def clean_node(node):
+            # 递归清理子节点
+            for child in list(node):
+                clean_node(child)
+                tag = child.tag.split("}")[-1].lower()  # 去掉namespace前缀
+                if tag in dynamic_tags:
+                    node.remove(child)
+
+        clean_node(root)
+        # 转成字符串，ET.tostring会保证顺序固定
+        stable_raw = ET.tostring(root, encoding="utf-8", method="xml")
+        return hashlib.md5(stable_raw).hexdigest()
+    except Exception:
+        # XML解析失败，退回到原始文本哈希
+        return hashlib.md5(content.encode("utf-8")).hexdigest()
+
+
+def compute_hash(content: str, data_type: str = "json") -> str:
+    if data_type == "xml":
+        return stable_hash_xml(content)
+    else:
+        return stable_hash_json(content)
 
 
 # ---------- 工具函数 ----------
@@ -166,23 +149,20 @@ def save_cache(cache_dict):
 
 
 def fetch_and_save(api_name, api_config, cache):
-    """
-    api_config 可以是字符串（url）或者包含 url/method/headers/body 的字典。
-    返回：是否有任何文件被保存（bool）
-    """
-    # 统一处理配置格式
+    # 统一处理配置
     if isinstance(api_config, str):
         url = api_config
         method = "GET"
         headers = {}
         body = None
+        data_type = "json"
     else:
         url = api_config["url"]
         method = api_config.get("method", "GET").upper()
         headers = api_config.get("headers", {})
         body = api_config.get("body", None)
+        data_type = api_config.get("type", "json")
 
-    # 构造请求头，合并默认头
     req_headers = {**DEFAULT_HEADERS, **headers}
 
     try:
@@ -192,19 +172,17 @@ def fetch_and_save(api_name, api_config, cache):
             if body is not None:
                 resp = requests.post(url, headers=req_headers, json=body, timeout=REQUEST_TIMEOUT)
             else:
-                # 如果没有指定 body，但又是 POST，可能需要发空 body
                 resp = requests.post(url, headers=req_headers, timeout=REQUEST_TIMEOUT)
         else:
             print(f"[错误] 不支持的方法 {method}，跳过 {api_name}", file=sys.stderr)
             return False
-
         resp.raise_for_status()
         content = resp.text
     except Exception as e:
         print(f"[错误] 抓取 {api_name} 失败: {e}", file=sys.stderr)
         return False
 
-    new_hash = compute_hash(content)
+    new_hash = compute_hash(content, data_type)
     old_hash = cache.get(api_name, "")
 
     print(f"[哈希] {api_name}  旧: {old_hash if old_hash else '(空)'}  新: {new_hash}")
@@ -213,15 +191,18 @@ def fetch_and_save(api_name, api_config, cache):
         print(f"[跳过] {api_name} 无更新")
         return False
 
-    # 有更新，写入年月目录
     now = datetime.now()
     dir_path = os.path.join(DATA_DIR, str(now.year), f"{now.month:02d}")
     os.makedirs(dir_path, exist_ok=True)
 
     timestamp = now.strftime("%Y%m%d_%H%M%S")
-    filename = f"{api_name}_{timestamp}.json"
-    filepath = os.path.join(dir_path, filename)
+    # 根据类型选后缀
+    if data_type == "xml":
+        filename = f"{api_name}_{timestamp}.xml"
+    else:
+        filename = f"{api_name}_{timestamp}.json"
 
+    filepath = os.path.join(dir_path, filename)
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(content)
 
