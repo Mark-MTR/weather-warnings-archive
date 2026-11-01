@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ssprob>
+  <System>
+    <SysAuthor>SMG</SysAuthor>
+    <SysPubdate>2026-09-01 10:56 GMT+8</SysPubdate>
+    <SysSubmitdate>2026-09-01 10:56 GMT+8</SysSubmitdate>
+    <SysInfo>
+      <version/>
+    </SysInfo>
+  </System>
+  <ReportInfo>
+    <ReportTitle>STORMSURGE</ReportTitle>
+    <ReportType>ss_prob_table</ReportType>
+    <ReportNo>SS-2026-003-004</ReportNo>
+    <ReportAmend/>
+    <RecordId>28</RecordId>
+  </ReportInfo>
+  <updatetime>2026-09-01 10:56</updatetime>
+  <Status>0</Status>
+  <Description>
+    <chinese/>
+    <english/>
+    <portuguese/>
+  </Description>
+  <SigUpdate>1</SigUpdate>
+  <info>
+    <table_title>
+      <chinese/>
+      <portuguese/>
+      <english/>
+    </table_title>
+    <name>
+      <chinese/>
+      <portuguese/>
+      <english/>
+    </name>
+    <grade/>
+    <smgid/>
+    <id/>
+  </info>
+  <sswarn/>
+</ssprob>

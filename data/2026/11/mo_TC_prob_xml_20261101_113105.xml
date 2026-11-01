@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tcprob>
+  <System>
+    <SysAuthor>SMG</SysAuthor>
+    <SysPubdate>2026-09-03 20:57 GMT+8</SysPubdate>
+    <SysSubmitdate/>
+    <SysInfo>
+      <version/>
+    </SysInfo>
+  </System>
+  <ReportInfo>
+    <ReportTitle/>
+    <ReportType>tc_prob_table</ReportType>
+    <ReportNo>TP-2026-003-016</ReportNo>
+    <ReportAmend/>
+    <RecordId>472</RecordId>
+  </ReportInfo>
+  <updatetime>2026-09-03 21:00</updatetime>
+  <Status>0</Status>
+  <Description>
+    <chinese/>
+    <english/>
+    <portuguese/>
+  </Description>
+  <SigUpdate/>
+  <info>
+    <table_title>
+      <chinese/>
+      <portuguese/>
+      <english/>
+    </table_title>
+    <name>
+      <chinese/>
+      <portuguese/>
+      <english/>
+    </name>
+    <grade/>
+    <smgid/>
+    <id/>
+  </info>
+  <tcwarn/>
+</tcprob>

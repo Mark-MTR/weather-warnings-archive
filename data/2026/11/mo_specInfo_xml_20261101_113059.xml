@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SpecType="1">
+  <System>
+    <SysAuthor>SMG-CPT</SysAuthor>
+    <SysPubdate>2026-10-29 06:09 GMT+8</SysPubdate>
+    <SysLanguage/>
+  </System>
+  <Custom>
+    <SpecialInfoReport>
+      <Inforce>0</Inforce>
+      <wx_group_push></wx_group_push>
+      <ValidFor>2026-10-29 06:09</ValidFor>
+      <ExpireIn Unit="Hour"/>
+      <Title>
+        <Chinese></Chinese>
+        <Portuguese></Portuguese>
+        <English></English>
+      </Title>
+      <Event>
+        <Chinese></Chinese>
+        <Portuguese></Portuguese>
+        <English></English>
+        <SigUpdate>0</SigUpdate>
+        <Icon></Icon>
+      </Event>
+      <Description>
+        <Chinese></Chinese>
+        <Portuguese></Portuguese>
+        <English></English>
+        <Chinese_feed></Chinese_feed>
+        <Portuguese_feed></Portuguese_feed>
+        <English_feed></English_feed>
+      </Description>
+      <TTS>
+        <Chinese></Chinese>
+        <Portuguese></Portuguese>
+        <English></English>
+      </TTS>
+    </SpecialInfoReport>
+  </Custom>
+</SpecialInfo>

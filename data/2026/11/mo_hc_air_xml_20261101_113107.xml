@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InfoAlert xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="InfoAlert.xsd">
+  <System>
+    <SysAuthor>SMG-CPT</SysAuthor>
+    <SysPubdate>2026-10-31 07:00 GMT+8</SysPubdate>
+    <SysLanguage/>
+  </System>
+  <Custom>
+    <InfoAlertReport>
+      <Inforce>0</Inforce>
+      <grade>0</grade>
+      <ValidFor>2026-10-31 07:00</ValidFor>
+      <Title>
+        <Chinese></Chinese>
+        <Portuguese></Portuguese>
+        <English></English>
+      </Title>
+      <Description>
+        <Chinese></Chinese>
+        <Portuguese></Portuguese>
+        <English></English>
+        <Chinese_feed>0</Chinese_feed>
+        <Portuguese_feed>0</Portuguese_feed>
+        <English_feed>0</English_feed>
+        <redirectURL>
+          <Chinese></Chinese>
+          <English></English>
+          <Portuguese></Portuguese>
+        </redirectURL>
+      </Description>
+      <TTS>
+        <Chinese></Chinese>
+        <Portuguese></Portuguese>
+        <English></English>
+      </TTS>
+      <Icon>
+        <IconURL>
+          <Chinese></Chinese>
+          <English></English>
+          <Portuguese></Portuguese>
+        </IconURL>
+      </Icon>
+    </InfoAlertReport>
+    <Complementary>
+      <Tips>
+        <Chinese></Chinese>
+        <Portuguese></Portuguese>
+        <English></English>
+      </Tips>
+      <Other>
+        <Chinese/>
+        <Portuguese/>
+        <English/>
+      </Other>
+    </Complementary>
+  </Custom>
+</InfoAlert>
