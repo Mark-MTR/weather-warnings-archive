@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SpecType="2">
+  <System>
+    <SysAuthor>SMG-CPT</SysAuthor>
+    <SysPubdate>2026-11-08 17:30 GMT+8</SysPubdate>
+    <SysLanguage/>
+  </System>
+  <Custom>
+    <SpecialInfoReport>
+      <Inforce>1</Inforce>
+      <wx_group_push>default</wx_group_push>
+      <ValidFor>2026-11-08 17:30</ValidFor>
+      <ExpireIn Unit="Hour"/>
+      <Title>
+        <Chinese>ç¹å¥å¤©æ°£ä¿¡æ¯</Chinese>
+        <Portuguese>InformaÃ§Ã£o meteorolÃ³gica especial</Portuguese>
+        <English>Special Weather Information</English>
+      </Title>
+      <Event>
+        <Chinese>æ°£è±¡å±å·²ç¼åºç¹å¥å¤©æ°£ä¿¡æ¯</Chinese>
+        <Portuguese>Foi emitido um aviso meteorolÃ³gico especial.</Portuguese>
+        <English>The special weather advisory has been issued.</English>
+        <Code>1-1</Code>
+        <SigUpdate>0</SigUpdate>
+        <Icon></Icon>
+      </Event>
+      <Description>
+        <Chinese>åä¸è¡å¼·çæ±åå­£é¢¨å½±é¿ï¼é±ä¸(11æ9æ¥)éå§æ¬æ¾³ååé¢¨å°æé¡¯èå¢å¼·ï¼é¢¨åé6ç´ä¸¦ä¼´é¨è¼å¼·é£é¢¨ï¼æ°£æº«éæ­¥ä¸éãé æé±äºåé±ä¸ï¼10è³11æ¥ï¼æä½æº«åº¦å°ä¸éè³16åº¦å·¦å³ï¼ç±æ¼å¤©æ°£ä¹¾ç¥åæ¥å¤æº«å·®è¼å¤§ï¼è«å·¿æ°æ³¨æé©ææ·»è¡£ï¼ä¸¦å°å¿é²ç«ã(æ¼ 2026å¹´11æ08æ¥17æ30å æ´æ°)</Chinese>
+        <Portuguese>Sob a influÃªncia de uma forte monÃ§Ã£o de nordeste, a partir de Segunda-feira (9 de Novembro), o vento do quadrante norte em Macau irÃ¡ intensificar-se significativamente, atingindo a forÃ§a 6 com rajadas relativamente fortes, e as temperaturas vÃ£o descer gradualmente. PrevÃª-se que a temperatura mÃ­nima desÃ§a para cerca de 16 Â°C na TerÃ§a e Quarta-feira (dias 10 e 11). &#13;
+&#13;
+Devido ao tempo seco e Ã  amplitude tÃ©rmica diÃ¡ria relativamente grande, apela-se Ã  populaÃ§Ã£o para que se agasalhe devidamente e tome as devidas precauÃ§Ãµes contra incÃªndios.( Data de actualizaÃ§Ã£o: 2026-11-08 17H30 )</Portuguese>
+        <English>Under the influence of a strong northeast monsoon, northerly winds will strengthen significantly, reaching force 6 with strong gust, and the temperature will drop accordingly, starting on Monday (9th Nov). The minimum temperature will drop to around 16 degrees Celsius between Tuesday and Wednesday (10th to 11th Nov). Due to significant diurnal temperature variations and dry conditions, the public is advised to take appropriate measures and be cautious of fire.( Update Time: 2026-11-08 17H30 )</English>
+        <Chinese_feed>1</Chinese_feed>
+        <Portuguese_feed>1</Portuguese_feed>
+        <English_feed>1</English_feed>
+      </Description>
+      <TTS>
+        <Chinese>åä¸è¡å¼·çæ±åå­£é¢¨å½±é¿ï¼é±ä¸(11æ9æ¥)éå§æ¬æ¾³ååé¢¨å°æé¡¯èå¢å¼·ï¼é¢¨åé6ç´ä¸¦ä¼´é¨è¼å¼·é£é¢¨ï¼æ°£æº«éæ­¥ä¸éãé æé±äºåé±ä¸ï¼10è³11æ¥ï¼æä½æº«åº¦å°ä¸éè³16åº¦å·¦å³ï¼ç±æ¼å¤©æ°£ä¹¾ç¥åæ¥å¤æº«å·®è¼å¤§ï¼è«å·¿æ°æ³¨æé©ææ·»è¡£ï¼ä¸¦å°å¿é²ç«ã(æ¼ 2026å¹´11æ08æ¥17æ30å æ´æ°)</Chinese>
+        <Portuguese>Sob a influÃªncia de uma forte monÃ§Ã£o de nordeste, a partir de Segunda-feira (9 de Novembro), o vento do quadrante norte em Macau irÃ¡ intensificar-se significativamente, atingindo a forÃ§a 6 com rajadas relativamente fortes, e as temperaturas vÃ£o descer gradualmente. PrevÃª-se que a temperatura mÃ­nima desÃ§a para cerca de 16 Â°C na TerÃ§a e Quarta-feira (dias 10 e 11). &#13;
+&#13;
+Devido ao tempo seco e Ã  amplitude tÃ©rmica diÃ¡ria relativamente grande, apela-se Ã  populaÃ§Ã£o para que se agasalhe devidamente e tome as devidas precauÃ§Ãµes contra incÃªndios.( Data de actualizaÃ§Ã£o: 2026-11-08 17H30 )</Portuguese>
+        <English>Under the influence of a strong northeast monsoon, northerly winds will strengthen significantly, reaching force 6 with strong gust, and the temperature will drop accordingly, starting on Monday (9th Nov). The minimum temperature will drop to around 16 degrees Celsius between Tuesday and Wednesday (10th to 11th Nov). Due to significant diurnal temperature variations and dry conditions, the public is advised to take appropriate measures and be cautious of fire.( Update Time: 2026-11-08 17H30 )</English>
+      </TTS>
+    </SpecialInfoReport>
+  </Custom>
+</SpecialInfo>
