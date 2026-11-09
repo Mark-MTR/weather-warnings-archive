@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SpecType="2">
+  <System>
+    <SysAuthor>SMG-CPT</SysAuthor>
+    <SysPubdate>2026-11-10 00:09 GMT+8</SysPubdate>
+    <SysLanguage/>
+  </System>
+  <Custom>
+    <SpecialInfoReport>
+      <Inforce>1</Inforce>
+      <wx_group_push>default</wx_group_push>
+      <ValidFor>2026-11-10 00:10</ValidFor>
+      <ExpireIn Unit="Hour"/>
+      <Title>
+        <Chinese>ç¹å¥å¤©æ°£ä¿¡æ¯</Chinese>
+        <Portuguese>InformaÃ§Ã£o meteorolÃ³gica especial</Portuguese>
+        <English>Special Weather Information</English>
+      </Title>
+      <Event>
+        <Chinese>æ°£è±¡å±å·²ç¼åºç¹å¥å¤©æ°£ä¿¡æ¯</Chinese>
+        <Portuguese>Foi emitido um aviso meteorolÃ³gico especial.</Portuguese>
+        <English>The special weather advisory has been issued.</English>
+        <Code>1-1</Code>
+        <SigUpdate>0</SigUpdate>
+        <Icon></Icon>
+      </Event>
+      <Description>
+        <Chinese>åä¸è¡å¼·çæ±åå­£é¢¨å½±é¿ï¼é ææ¬æ¾³é±äºåé±ä¸(11æ10æ¥å11æ¥ï¼å¤©æ´ä¹¾ç¥ï¼æ©æå¤©æ°£æ¸æ¶¼ï¼æä½æ°£æº«ç´çºææ°16åº¦ï¼æ¥å¤æº«å·®è¼å¤§ãè«å·¿æ°æ³¨æé©ææ·»è¡£ï¼ä¸¦å°å¿é²ç«ã(æ¼ 2026å¹´11æ10æ¥00æ10å æ´æ°)</Chinese>
+        <Portuguese>Sob a influÃªncia de uma monÃ§Ã£o de Nordeste forte, prevÃª-se que o cÃ©u em Macau se apresente limpo e o tempo seco, nesta TerÃ§a-feira e Quarta-feira (10 e 11 de Novembro). Vai verificar-se uma grande amplitude tÃ©rmica diurna, com tempo fresco no inÃ­cio da manhÃ£ e Ã  noite, e as temperaturas mÃ­nimas de cerca de 16 Â°C. Apela-se Ã  populaÃ§Ã£o que preste atenÃ§Ã£o as condiÃ§Ãµes meteorolÃ³gicas, e tenha especial cuidado com a prevenÃ§Ã£o de incÃªndios devido ao tempo seco.( Data de actualizaÃ§Ã£o: 2026-11-10 00H10 )</Portuguese>
+        <English>Under the influence of a strong northeast monsoon, the weather in Macao is expected to be fine and dry on Tuesday and Wednesday (10th and 11th Nov), with cool in the mornings and evenings. The minimum temperature will be around 16 degrees Celsius, and there will have significant diurnal temperature variations between day and night. The public is advised to take appropriate measures and be cautious of fire.( Update Time: 2026-11-10 00H10 )</English>
+        <Chinese_feed>1</Chinese_feed>
+        <Portuguese_feed>1</Portuguese_feed>
+        <English_feed>1</English_feed>
+      </Description>
+      <TTS>
+        <Chinese>åä¸è¡å¼·çæ±åå­£é¢¨å½±é¿ï¼é ææ¬æ¾³é±äºåé±ä¸(11æ10æ¥å11æ¥ï¼å¤©æ´ä¹¾ç¥ï¼æ©æå¤©æ°£æ¸æ¶¼ï¼æä½æ°£æº«ç´çºææ°16åº¦ï¼æ¥å¤æº«å·®è¼å¤§ãè«å·¿æ°æ³¨æé©ææ·»è¡£ï¼ä¸¦å°å¿é²ç«ã(æ¼ 2026å¹´11æ10æ¥00æ10å æ´æ°)</Chinese>
+        <Portuguese>Sob a influÃªncia de uma monÃ§Ã£o de Nordeste forte, prevÃª-se que o cÃ©u em Macau se apresente limpo e o tempo seco, nesta TerÃ§a-feira e Quarta-feira (10 e 11 de Novembro). Vai verificar-se uma grande amplitude tÃ©rmica diurna, com tempo fresco no inÃ­cio da manhÃ£ e Ã  noite, e as temperaturas mÃ­nimas de cerca de 16 Â°C. Apela-se Ã  populaÃ§Ã£o que preste atenÃ§Ã£o as condiÃ§Ãµes meteorolÃ³gicas, e tenha especial cuidado com a prevenÃ§Ã£o de incÃªndios devido ao tempo seco.( Data de actualizaÃ§Ã£o: 2026-11-10 00H10 )</Portuguese>
+        <English>Under the influence of a strong northeast monsoon, the weather in Macao is expected to be fine and dry on Tuesday and Wednesday (10th and 11th Nov), with cool in the mornings and evenings. The minimum temperature will be around 16 degrees Celsius, and there will have significant diurnal temperature variations between day and night. The public is advised to take appropriate measures and be cautious of fire.( Update Time: 2026-11-10 00H10 )</English>
+      </TTS>
+    </SpecialInfoReport>
+  </Custom>
+</SpecialInfo>
