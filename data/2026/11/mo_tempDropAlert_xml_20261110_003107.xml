@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TempDropAlert xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <System>
+    <SysAuthor>SMG-DDI</SysAuthor>
+    <SysPubdate>2026-11-10 00:13:00 GMT+8</SysPubdate>
+    <SysLanguage/>
+  </System>
+  <Custom>
+    <TempDropAlertReport>
+      <Status>1</Status>
+      <Inforce>2</Inforce>
+      <Telegram>1</Telegram>
+      <ValidFor>2026-11-10 00:15 GMT+8</ValidFor>
+      <Title>
+        <Chinese>éæº«æç¤º</Chinese>
+        <Portuguese>Alerta de descida de temperatura</Portuguese>
+        <English>Temperature Drop Alert</English>
+      </Title>
+      <Description>
+        <Chinese>é ææ¬æ¾³24å°æå§æ°£æº«å°é¡¯èä¸éï¼è«å¸æ°çææ°£æº«çæé¡¯è®åï¼åææ·»è¡£æ³¨æä¿æã (æ¼ 2026å¹´11æ10æ¥00æ15å æ´æ°)</Chinese>
+        <Portuguese>A DSMG prevÃª uma descida significativa da temperatura em Macau nas prÃ³ximas 24 horas. Recomenda-se Ã  populaÃ§Ã£o que preste atenÃ§Ã£o Ã s alteraÃ§Ãµes acentuadas nas temperaturas e se proteja contra o frio. ( Data de actualizaÃ§Ã£o: 2026-11-10 00H15 )</Portuguese>
+        <English>DSMG forecasts a significant drop in temperatures in Macao in the next 24 hours. The public is advised to pay attention to changes in temperature and adopt appropriate measures. ( Update Time: 2026-11-10 at 00H15 )</English>
+        <Chinese_feed>1</Chinese_feed>
+        <Portuguese_feed>1</Portuguese_feed>
+        <English_feed>1</English_feed>
+        <redirectURL>
+          <Chinese>/zh/subpage/232/page/576</Chinese>
+          <English>/en/subpage/232/page/576</English>
+          <Portuguese>/pt/subpage/232/page/576</Portuguese>
+        </redirectURL>
+      </Description>
+      <ShortDescription>
+        <Chinese>æ°£è±¡å±å·²ç¼åºéæº«æç¤ºï¼é ææ¬æ¾³24å°æå§æ°£æº«å°é¡¯èä¸éï¼è«å¸æ°çææ°£æº«çæé¡¯è®åä¸¦åææ·»è¡£ã</Chinese>
+        <Portuguese>Foi emitido o Alerta de Descida de Temperatura. A DSMG prevÃª uma descida significativa da temperatura em Macau nas prÃ³ximas 24 horas. Recomenda-se Ã  populaÃ§Ã£o que preste atenÃ§Ã£o Ã s alteraÃ§Ãµes acentuadas nas temperaturas e se proteja contra o frio.</Portuguese>
+        <English>Temperature Drop Alert has been issued. DSMG forecasts a significant drop in temperatures in Macao in the next 24 hours. The public is advised to pay attention to changes in temperature and adopt appropriate measures.</English>
+      </ShortDescription>
+      <TTS>
+        <Chinese>æ°£è±¡å±å·²ç¼åºéæº«æç¤ºï¼é ææ¬æ¾³24å°æå§æ°£æº«å°é¡¯èä¸éï¼è«å¸æ°çææ°£æº«çæé¡¯è®åä¸¦åææ·»è¡£ã</Chinese>
+        <Portuguese>Foi emitido o Alerta de Descida de Temperatura. A DSMG prevÃª uma descida significativa da temperatura em Macau nas prÃ³ximas 24 horas. Recomenda-se Ã  populaÃ§Ã£o que preste atenÃ§Ã£o Ã s alteraÃ§Ãµes acentuadas nas temperaturas e se proteja contra o frio.</Portuguese>
+        <English>Temperature Drop Alert has been issued. DSMG forecasts a significant drop in temperatures in Macao in the next 24 hours. The public is advised to pay attention to changes in temperature and adopt appropriate measures.</English>
+      </TTS>
+      <Icon>
+        <IconURL>https://www.smg.gov.mo/icons/coldhot/drop.gif</IconURL>
+      </Icon>
+    </TempDropAlertReport>
+    <Complementary>
+      <Tips>
+        <Chinese>å»ºè­°å¬ç¾æ³¨æä»¥ä¸äºé ï¼
+1. æ°£æº«è®åå¹åº¦å¤§ï¼é©æé åå¯å¢æ·»ä¹è¡£ç©ï¼é¿åèæ¶¼ã
+2. é«è³ªè¼å¼±èï¼å°¤å¶é·èãå¹¼åãå­å©¦åé·æçæ£ï¼ï¼å¤åºæææ³¨æä¿æã
+3. æ°£æº«é©éå®¹æå¼ç¼èº«é«ä¸é©ï¼ä¾å¦å¼å¸éãéç¯ãå¿èãè¸èç­ï¼ï¼æéè¦å¯æ´å£ç½©ï¼å¤åæº«æ°´ï¼ä¸¦éå°èº«é«ä¸åé¨ä½éé»ä¿æã
+4. éæº«å¤©æ°£å¸¸ä¼´é¨å¤§é¢¨ï¼æ£æå¼å¸ç³»çµ±ç¾çæé«å¼±äººå£«ï¼ææ³¨æå¤§é¢¨å¼èµ·ä¹æå¡µï¼ä¸¦çæç©ºæ°£è³ªéæ°´å¹³è®åï¼é©æèª¿æ´åºè¡ã
+5. éæº«å¤©æ°£å¸¸ä¼´é¨éé¨ï¼ç¶å¤§é¢¨å ä¸å¤é²æé¨çå¤©æ°£ï¼èº«é«æåçæº«åº¦æææ¯å¯¦éæ°£æº«æ´ä½ï¼æéæ³¨ææ°å¤©æ°£è³è¨ã</Chinese>
+        <Portuguese>Recomenda-se ao pÃºblico que preste atenÃ§Ã£o aos seguintes pontos:
+1. Recomenda-se que, devido Ã  grande amplitude tÃ©rmica e Ã s flutuaÃ§Ãµes de temperatura do ar, a populaÃ§Ã£o prepare roupas adicionais e se vista por camadas de modo a evitar o frio.
+2. Pessoas com uma constituiÃ§Ã£o mais frÃ¡gil (especialmente idosos, crianÃ§as, grÃ¡vidas e doentes crÃ³nicos) devem agasalhar-se adequadamente ao sair de casa.
+3. A descida sÃºbita de temperatura do ar pode causar desconforto fÃ­sico (como problemas respiratÃ³rios, dores nas articulaÃ§Ãµes, problemas cardÃ­acos e perturbaÃ§Ãµes gastrointestinais). Se necessÃ¡rio, use mÃ¡scara, beba bastante Ã¡gua quente, e procure manter o corpo aquecido.
+4. A descida de temperatura Ã© frequentemente acompanhada por ventos fortes. Pessoas com doenÃ§as respiratÃ³rias ou com uma constituiÃ§Ã£o mais frÃ¡geis devem ter cuidado com a poeira levantada pelo vento, observar as alteraÃ§Ãµes nos nÃ­veis de qualidade do ar e ajustar os seus planos de deslocaÃ§Ã£o de acordo com a situaÃ§Ã£o.
+5. A descida da temperatura Ã© frequentemente acompanhada de chuva. Quando ventos fortes se combinam com condiÃ§Ãµes meteorolÃ³gicas de cÃ©u nublado e precipitaÃ§Ã£o, a sensaÃ§Ã£o tÃ©rmica pode ser inferior Ã  temperatura real. Ã fundamental manter-se atento Ã s Ãºltimas informaÃ§Ãµes meteorolÃ³gicas.</Portuguese>
+        <English>The public is advised to pay attention to the following points:
+1. Due to the large fluctuation in temperature, it is advisable to prepare additional clothing to avoid catching a cold.
+2. Individuals with weaker constitutions (especially the elderly, young children, pregnant women, and those with chronic illnesses) should take precautions to stay warm when going outside.
+3. Sudden drops in temperature can easily lead to physical discomfort (such as respiratory issues, joint pain, heart problems and gastrointestinal issues). Wearing a mask if necessary. Drinking plenty of warm water, and keeping different parts of the body warm are recommended.
+4. It is often accompanied by strong winds when temperature drops. People with respiratory diseases or weak constitutions should be cautious of dust raised by the wind and pay attention to changes in air quality levels, adjusting their travel plans accordingly.
+5. It is often associated with rainfall when temperature drops. When strong winds combine with cloudy and rainy conditions, the perceived temperature may feel lower than the actual temperature, so it is important to stay updated on the latest weather information.</English>
+      </Tips>
+      <Other>
+        <Chinese/>
+        <Portuguese/>
+        <English/>
+      </Other>
+    </Complementary>
+  </Custom>
+</TempDropAlert>
