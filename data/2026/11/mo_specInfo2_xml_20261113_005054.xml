@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SpecType="2">
+  <System>
+    <SysAuthor>SMG-CPT</SysAuthor>
+    <SysPubdate>2026-11-13 00:41 GMT+8</SysPubdate>
+    <SysLanguage/>
+  </System>
+  <Custom>
+    <SpecialInfoReport>
+      <Inforce>1</Inforce>
+      <wx_group_push>default</wx_group_push>
+      <ValidFor>2026-11-13 00:36</ValidFor>
+      <ExpireIn Unit="Hour"/>
+      <Title>
+        <Chinese>ç¹å¥å¤©æ°£ä¿¡æ¯</Chinese>
+        <Portuguese>InformaÃ§Ã£o meteorolÃ³gica especial</Portuguese>
+        <English>Special Weather Information</English>
+      </Title>
+      <Event>
+        <Chinese>æ°£è±¡å±å·²ç¼åºç¹å¥å¤©æ°£ä¿¡æ¯</Chinese>
+        <Portuguese>Foi emitido um aviso meteorolÃ³gico especial.</Portuguese>
+        <English>The special weather advisory has been issued.</English>
+        <Code>1-1</Code>
+        <SigUpdate>0</SigUpdate>
+        <Icon></Icon>
+      </Event>
+      <Description>
+        <Chinese>åé«ç©ºæ¾ååå¶ç¸éçä¸ç©©å®æ°£æµå½±é¿ï¼é ææ¬æ¾³ä»æ¥æéé©é¨å¢å¤ï¼é±å­(14æ¥)åæ¨è³æ¸æ¨é¨å¢ææé å¤§åæå¹¾é£é·æ´ï¼æ¥éå¤©è²å¥½è½ï¼è«å¸æ°çæå¤©æ°£è®åï¼ä¸¦éæ³¨æ¬å±ç¼åºçæç¤ºåè­¦åã(æ¼ 2026å¹´11æ13æ¥00æ36å æ´æ°)</Chinese>
+        <Portuguese>Sob a influÃªncia de uma perturbaÃ§Ã£o em altitude e de uma corrente de ar instÃ¡vel associada, prevÃª-se um aumento dos aguaceiros em Macau durante a noite de sexta-feira (13 de Novembro). Entre a madrugada e o inÃ­cio da manhÃ£ de sÃ¡bado (dia 14), a chuva serÃ¡ por vezes forte, acompanhada de algumas trovoadas, melhorando gradualmente o estado do tempo durante o dia. Apela-se ao pÃºblico para que se mantenha atento Ã s alteraÃ§Ãµes meteorolÃ³gicas e acompanhe os avisos e alertas emitidos pela DSMG.( Data de actualizaÃ§Ã£o: 2026-11-13 00H36 )</Portuguese>
+        <English>Under the influence of upper-level disturbances and the associated unstable airstream,  showers are expected to become more frequent in Macao tonight. Showers will be heavy at times, with a few thunderstorms on Saturday (14th Nov) early morning. Weather conditions will improve during the day. The public is advised to pay attention to weather changes and follow the alerts and warnings issued by the DSMG.&#13;
+( Update Time: 2026-11-13 00H36 )</English>
+        <Chinese_feed>1</Chinese_feed>
+        <Portuguese_feed>1</Portuguese_feed>
+        <English_feed>1</English_feed>
+      </Description>
+      <TTS>
+        <Chinese>åé«ç©ºæ¾ååå¶ç¸éçä¸ç©©å®æ°£æµå½±é¿ï¼é ææ¬æ¾³ä»æ¥æéé©é¨å¢å¤ï¼é±å­(14æ¥)åæ¨è³æ¸æ¨é¨å¢ææé å¤§åæå¹¾é£é·æ´ï¼æ¥éå¤©è²å¥½è½ï¼è«å¸æ°çæå¤©æ°£è®åï¼ä¸¦éæ³¨æ¬å±ç¼åºçæç¤ºåè­¦åã(æ¼ 2026å¹´11æ13æ¥00æ36å æ´æ°)</Chinese>
+        <Portuguese>Sob a influÃªncia de uma perturbaÃ§Ã£o em altitude e de uma corrente de ar instÃ¡vel associada, prevÃª-se um aumento dos aguaceiros em Macau durante a noite de sexta-feira (13 de Novembro). Entre a madrugada e o inÃ­cio da manhÃ£ de sÃ¡bado (dia 14), a chuva serÃ¡ por vezes forte, acompanhada de algumas trovoadas, melhorando gradualmente o estado do tempo durante o dia. Apela-se ao pÃºblico para que se mantenha atento Ã s alteraÃ§Ãµes meteorolÃ³gicas e acompanhe os avisos e alertas emitidos pela DSMG.( Data de actualizaÃ§Ã£o: 2026-11-13 00H36 )</Portuguese>
+        <English>Under the influence of upper-level disturbances and the associated unstable airstream,  showers are expected to become more frequent in Macao tonight. Showers will be heavy at times, with a few thunderstorms on Saturday (14th Nov) early morning. Weather conditions will improve during the day. The public is advised to pay attention to weather changes and follow the alerts and warnings issued by the DSMG.&#13;
+( Update Time: 2026-11-13 00H36 )</English>
+      </TTS>
+    </SpecialInfoReport>
+  </Custom>
+</SpecialInfo>
