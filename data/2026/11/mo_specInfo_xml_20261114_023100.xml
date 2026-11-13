@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SpecType="1">
+  <System>
+    <SysAuthor>SMG-CPT</SysAuthor>
+    <SysPubdate>2026-11-14 02:17 GMT+8</SysPubdate>
+    <SysLanguage/>
+  </System>
+  <Custom>
+    <SpecialInfoReport>
+      <Inforce>1</Inforce>
+      <wx_group_push>default</wx_group_push>
+      <ValidFor>2026-11-14 02:17</ValidFor>
+      <ExpireIn Unit="Hour"/>
+      <Title>
+        <Chinese>ç¹å¥å¤©æ°£ä¿¡æ¯</Chinese>
+        <Portuguese>InformaÃ§Ã£o meteorolÃ³gica especial</Portuguese>
+        <English>Special Weather Information</English>
+      </Title>
+      <Event>
+        <Chinese>è¨è¿éé¨æç¤º</Chinese>
+        <Portuguese>Aviso de chuva iminente</Portuguese>
+        <English>Nearby rainfall advisory.</English>
+        <Code>1-3</Code>
+        <SigUpdate>0</SigUpdate>
+        <Icon></Icon>
+      </Event>
+      <Description>
+        <Chinese>é æç­æéå§å°æé¨åå½±é¿æ¾³éåç¸é°å°åï¼æ¬æ¾³å¯è½æåºç¾å¤§é¨åå¼·çé£é¢¨ï¼è«å¸æ°çæã(æ¼ 2026å¹´11æ14æ¥02æ17å æ´æ°)</Chinese>
+        <Portuguese>Espera-se que, em breve, Macau e Ã¡reas adjacentes sejam afectadas por aguaceiros vento forte com rajadas. Preste atenÃ§Ã£o Ã s condiÃ§Ãµes atmosfÃ©ricas. ( Data de actualizaÃ§Ã£o: 2026-11-14 02H17 )</Portuguese>
+        <English>Showers are expected in Macao and the adjacent areas shortly. There will be heavy rainfall and strong gales. Members of the public should be on the alert. ( Update Time: 2026-11-14 02H17 )</English>
+        <Chinese_feed>1</Chinese_feed>
+        <Portuguese_feed>1</Portuguese_feed>
+        <English_feed>1</English_feed>
+      </Description>
+      <TTS>
+        <Chinese>é æç­æéå§å°æé¨åå½±é¿æ¾³éåç¸é°å°åï¼æ¬æ¾³å¯è½æåºç¾å¤§é¨åå¼·çé£é¢¨ï¼è«å¸æ°çæã(æ¼ 2026å¹´11æ14æ¥02æ17å æ´æ°)</Chinese>
+        <Portuguese>Espera-se que, em breve, Macau e Ã¡reas adjacentes sejam afectadas por aguaceiros vento forte com rajadas. Preste atenÃ§Ã£o Ã s condiÃ§Ãµes atmosfÃ©ricas. ( Data de actualizaÃ§Ã£o: 2026-11-14 02H17 )</Portuguese>
+        <English>Showers are expected in Macao and the adjacent areas shortly. There will be heavy rainfall and strong gales. Members of the public should be on the alert. ( Update Time: 2026-11-14 02H17 )</English>
+      </TTS>
+    </SpecialInfoReport>
+  </Custom>
+</SpecialInfo>

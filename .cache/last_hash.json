@@ -20,7 +20,7 @@
   "mo_SSprob": "3539dfaba199e8b0cb4b25e6f33d6b46",
   "mo_TCprob": "16ba783d2aede76395438d090718daef",
   "szWarnPre": "474b557ef5c09952cf57eb11c538c982",
-  "mo_specInfo_xml": "78c8566a77f1f5a724d35406bf19804c",
+  "mo_specInfo_xml": "434a53f6825a0a81c1d30732b107fdc4",
   "mo_specInfo2_xml": "c8e64c17058bf1301361c10349c86d14",
   "mo_specInfo3_xml": "9f31de52ebf099c9742c23aa82fe2d5d",
   "mo_specInfo4_xml": "1b9e04f7f5d02dbc1f36d03f108b26a0",
@@ -29,13 +29,13 @@
   "mo_hc_air_xml": "5140d30df37bee4f40ef5bd2a18e6f68",
   "mo_tempDropAlert_xml": "21e43d9e78c6e200431c1f0187ef4f42",
   "mo_temperatureAlert_xml": "9d2d7012678eaf1fa400d84a2f9c2469",
-  "mo_rainstormWarning": "6b165042e47da7aba0be0ce9108e7ce4",
+  "mo_rainstormWarning": "7a9194787f27ff972df26d83575bb008",
   "mo_thunderstormWarning": "22d25b77a66ebacbdfe0e989260f12a2",
   "mo_stormsurgeWarning": "75a6d668d159f074df01b1cd528a11a6",
   "mo_typhoonWarning": "eff3df840c265639cf6cb8b9fcd5271e",
   "mo_monsoonWarning": "39c9c815b99f54daf83ff0bdb08f0d2e",
-  "mo_activeWarning": "c28b779f8a1045785d832ce9a20e387d",
+  "mo_activeWarning": "187ba4780b2e1299c2ac34aee559b582",
   "mo_invalidWarning": "47658c8be9c13e2975ddcf974d33e0a9",
   "mo_tsunamiWarning": "5f899799968015c5d1f17a8f51931544",
-  "mo_specialAlert": "f7cd643c7d81d417511f436e5a512f6d"
+  "mo_specialAlert": "335e7b8d5703b8a06b78d81df27c3c5b"
 }
