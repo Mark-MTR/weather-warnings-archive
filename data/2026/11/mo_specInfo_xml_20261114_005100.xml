@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SpecType="1">
+  <System>
+    <SysAuthor>SMG-CPT</SysAuthor>
+    <SysPubdate>2026-11-14 00:36 GMT+8</SysPubdate>
+    <SysLanguage/>
+  </System>
+  <Custom>
+    <SpecialInfoReport>
+      <Inforce>1</Inforce>
+      <wx_group_push>default</wx_group_push>
+      <ValidFor>2026-11-14 00:35</ValidFor>
+      <ExpireIn Unit="Hour"/>
+      <Title>
+        <Chinese>ç¹å¥å¤©æ°£ä¿¡æ¯</Chinese>
+        <Portuguese>InformaÃ§Ã£o meteorolÃ³gica especial</Portuguese>
+        <English>Special Weather Information</English>
+      </Title>
+      <Event>
+        <Chinese>è¨è¿éé¨æç¤º</Chinese>
+        <Portuguese>Aviso de chuva iminente</Portuguese>
+        <English>Nearby rainfall advisory.</English>
+        <Code>1-3</Code>
+        <SigUpdate>0</SigUpdate>
+        <Icon></Icon>
+      </Event>
+      <Description>
+        <Chinese>ä½æ¼ç æ±å£ä»¥è¥¿çé·é¨åæ­£å¨ç§»è¿ãæªä¾1è³2å°ææ¬æ¾³å°åºç¾å¤§é¨ãè«å¸æ°çæã(æ¼ 2026å¹´11æ14æ¥00æ35å æ´æ°)</Chinese>
+        <Portuguese>Uma Ã¡rea de chuvas e trovoadas localizada a oeste do EstuÃ¡rio do Rio das PÃ©rolas estÃ¡ a aproximar-se. Nas prÃ³ximas 1 - 2 horas, vÃ£o ocorrer chuvas fortes, em Macau. Recomenda-se Ã  populaÃ§Ã£o que preste atenÃ§Ã£o Ã s condiÃ§Ãµes meteorolÃ³gicas. ( Data de actualizaÃ§Ã£o: 2026-11-14 00H35 )</Portuguese>
+        <English>An area of thundery showers to the west of the Pearl River Estuary is moving closer. Heavy rain will occur in Macau in the following 1-2 hours. Public should stay alert. ( Update Time: 2026-11-14 00H35 )</English>
+        <Chinese_feed>1</Chinese_feed>
+        <Portuguese_feed>1</Portuguese_feed>
+        <English_feed>1</English_feed>
+      </Description>
+      <TTS>
+        <Chinese>ä½æ¼ç æ±å£ä»¥è¥¿çé·é¨åæ­£å¨ç§»è¿ãæªä¾1è³2å°ææ¬æ¾³å°åºç¾å¤§é¨ãè«å¸æ°çæã(æ¼ 2026å¹´11æ14æ¥00æ35å æ´æ°)</Chinese>
+        <Portuguese>Uma Ã¡rea de chuvas e trovoadas localizada a oeste do EstuÃ¡rio do Rio das PÃ©rolas estÃ¡ a aproximar-se. Nas prÃ³ximas 1 - 2 horas, vÃ£o ocorrer chuvas fortes, em Macau. Recomenda-se Ã  populaÃ§Ã£o que preste atenÃ§Ã£o Ã s condiÃ§Ãµes meteorolÃ³gicas. ( Data de actualizaÃ§Ã£o: 2026-11-14 00H35 )</Portuguese>
+        <English>An area of thundery showers to the west of the Pearl River Estuary is moving closer. Heavy rain will occur in Macau in the following 1-2 hours. Public should stay alert. ( Update Time: 2026-11-14 00H35 )</English>
+      </TTS>
+    </SpecialInfoReport>
+  </Custom>
+</SpecialInfo>
