@@ -20,7 +20,7 @@
   "mo_SSprob": "3539dfaba199e8b0cb4b25e6f33d6b46",
   "mo_TCprob": "16ba783d2aede76395438d090718daef",
   "szWarnPre": "474b557ef5c09952cf57eb11c538c982",
-  "mo_specInfo_xml": "434a53f6825a0a81c1d30732b107fdc4",
+  "mo_specInfo_xml": "0b1f447f6435bf0e7bcb428e639b6b11",
   "mo_specInfo2_xml": "c8e64c17058bf1301361c10349c86d14",
   "mo_specInfo3_xml": "9f31de52ebf099c9742c23aa82fe2d5d",
   "mo_specInfo4_xml": "1b9e04f7f5d02dbc1f36d03f108b26a0",
@@ -37,5 +37,5 @@
   "mo_activeWarning": "187ba4780b2e1299c2ac34aee559b582",
   "mo_invalidWarning": "47658c8be9c13e2975ddcf974d33e0a9",
   "mo_tsunamiWarning": "5f899799968015c5d1f17a8f51931544",
-  "mo_specialAlert": "335e7b8d5703b8a06b78d81df27c3c5b"
+  "mo_specialAlert": "f817e6de0a6662cdae3efd1426cb6a40"
 }
