@@ -61,6 +61,11 @@ APIS = {
         "method": "GET",
         "type": "xml",
     },
+    "mo_fireRiskAlert_xml": {
+        "url": "https://xml.dsmg.gov.mo/fireRiskAlert.xml",
+        "method": "GET",
+        "type": "xml",
+    },
     "mo_rainstormWarning": "https://cdn.dsmg.gov.mo/uploads/weather/zh-CN/rainstormWarning.json",
     "mo_thunderstormWarning": "https://cdn.dsmg.gov.mo/uploads/weather/zh-CN/thunderstormWarning.json",
     "mo_stormsurgeWarning": "https://cdn.dsmg.gov.mo/uploads/weather/zh-CN/stormsurgeWarning.json",
