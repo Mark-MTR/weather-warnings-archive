@@ -37,5 +37,6 @@
   "mo_activeWarning": "c28b779f8a1045785d832ce9a20e387d",
   "mo_invalidWarning": "47658c8be9c13e2975ddcf974d33e0a9",
   "mo_tsunamiWarning": "5f899799968015c5d1f17a8f51931544",
-  "mo_specialAlert": "4bb8275c4ac8dfa7193b717af7fe1adf"
+  "mo_specialAlert": "4bb8275c4ac8dfa7193b717af7fe1adf",
+  "mo_fireRiskAlert_xml": "c92cb4ef6842bee6a9c1e9bc77b6db79"
 }
