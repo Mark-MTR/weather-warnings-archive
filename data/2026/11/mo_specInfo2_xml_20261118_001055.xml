@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SpecType="2">
+  <System>
+    <SysAuthor>SMG-CPT</SysAuthor>
+    <SysPubdate>2026-11-18 00:10 GMT+8</SysPubdate>
+    <SysLanguage/>
+  </System>
+  <Custom>
+    <SpecialInfoReport>
+      <Inforce>1</Inforce>
+      <wx_group_push>default</wx_group_push>
+      <ValidFor>2026-11-18 00:10</ValidFor>
+      <ExpireIn Unit="Hour"/>
+      <Title>
+        <Chinese>ç¹å¥å¤©æ°£ä¿¡æ¯</Chinese>
+        <Portuguese>InformaÃ§Ã£o meteorolÃ³gica especial</Portuguese>
+        <English>Special Weather Information</English>
+      </Title>
+      <Event>
+        <Chinese>æ°£è±¡å±å·²ç¼åºç¹å¥ä¿¡æ¯</Chinese>
+        <Portuguese>Foi emitida uma informaÃ§Ã£o especial.</Portuguese>
+        <English>The special information has been issued.</English>
+        <Code>1-2</Code>
+        <SigUpdate>0</SigUpdate>
+        <Icon></Icon>
+      </Event>
+      <Description>
+        <Chinese>é æä¸éå·éå°æ¼ä»æ¥æ¥éæµéå»£æ±æ²¿å²¸ï¼å±ææ¬æ¾³ææå¹¾é£é¨ï¼åé¨å¾æ±åå­£é¢¨å½±é¿ï¼æéåé¢¨å°æå¢å¼·ï¼é¢¨åé6ç´åæé£é¢¨ï¼æ°£æº«éå§ä¸éï¼é æé±ååé±äº(19å20æ¥)å¤©æ°£æ¸æ¶¼ï¼æä½æ°£æº«å°ä¸éè³ç´15åº¦ãè«å¸æ°çæå¤©æ°£è®åï¼é©ææ·»è¡£ã(æ¼ 2026å¹´11æ18æ¥00æ10å æ´æ°)</Chinese>
+        <Portuguese>PrevÃª-se que uma frente fria atinja a costa de Guangdong durante o dia de hoje, altura em que se registarÃ£o alguns aguaceiros em Macau. Sob a influÃªncia da subsequente monÃ§Ã£o de nordeste, o vento de norte vai intensificar-se Ã  noite, atingindo a forÃ§a 6 com rajadas, e a temperatura comeÃ§arÃ¡ a descer. PrevÃª-se com o tempo fresco na quinta-feira e na sexta-feira (dias 19 e 20), com a temperatura mÃ­nima a descer para cerca de 15 Â°C. Apela-se aos cidadÃ£os para que estejam atentos Ã s alteraÃ§Ãµes meteorolÃ³gicas e se agasalhem adequadamente.( Data de actualizaÃ§Ã£o: 2026-11-18 00H10 )</Portuguese>
+        <English>A cold front is expected to arrive at the coast of Guangdong during the daytime today, bringing a few rain patches to Macao. As affected by the subsequent northeast monsoon, northerly winds will strengthen in the evening, reaching force 6 with gusts, and temperatures will begin to drop. On Thursday and Friday (19th and 20th), it is expected to be cool and the minimum temperature will drop to around 15 degrees Celsius. The public is advised to pay attention to the weather changes and take appropriate measures.( Update Time: 2026-11-18 00H10 )</English>
+        <Chinese_feed>1</Chinese_feed>
+        <Portuguese_feed>1</Portuguese_feed>
+        <English_feed>1</English_feed>
+      </Description>
+      <TTS>
+        <Chinese>é æä¸éå·éå°æ¼ä»æ¥æ¥éæµéå»£æ±æ²¿å²¸ï¼å±ææ¬æ¾³ææå¹¾é£é¨ï¼åé¨å¾æ±åå­£é¢¨å½±é¿ï¼æéåé¢¨å°æå¢å¼·ï¼é¢¨åé6ç´åæé£é¢¨ï¼æ°£æº«éå§ä¸éï¼é æé±ååé±äº(19å20æ¥)å¤©æ°£æ¸æ¶¼ï¼æä½æ°£æº«å°ä¸éè³ç´15åº¦ãè«å¸æ°çæå¤©æ°£è®åï¼é©ææ·»è¡£ã(æ¼ 2026å¹´11æ18æ¥00æ10å æ´æ°)</Chinese>
+        <Portuguese>PrevÃª-se que uma frente fria atinja a costa de Guangdong durante o dia de hoje, altura em que se registarÃ£o alguns aguaceiros em Macau. Sob a influÃªncia da subsequente monÃ§Ã£o de nordeste, o vento de norte vai intensificar-se Ã  noite, atingindo a forÃ§a 6 com rajadas, e a temperatura comeÃ§arÃ¡ a descer. PrevÃª-se com o tempo fresco na quinta-feira e na sexta-feira (dias 19 e 20), com a temperatura mÃ­nima a descer para cerca de 15 Â°C. Apela-se aos cidadÃ£os para que estejam atentos Ã s alteraÃ§Ãµes meteorolÃ³gicas e se agasalhem adequadamente.( Data de actualizaÃ§Ã£o: 2026-11-18 00H10 )</Portuguese>
+        <English>A cold front is expected to arrive at the coast of Guangdong during the daytime today, bringing a few rain patches to Macao. As affected by the subsequent northeast monsoon, northerly winds will strengthen in the evening, reaching force 6 with gusts, and temperatures will begin to drop. On Thursday and Friday (19th and 20th), it is expected to be cool and the minimum temperature will drop to around 15 degrees Celsius. The public is advised to pay attention to the weather changes and take appropriate measures.( Update Time: 2026-11-18 00H10 )</English>
+      </TTS>
+    </SpecialInfoReport>
+  </Custom>
+</SpecialInfo>
