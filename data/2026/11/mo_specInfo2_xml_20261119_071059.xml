@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SpecType="2">
+  <System>
+    <SysAuthor>SMG-CPT</SysAuthor>
+    <SysPubdate>2026-11-19 07:00 GMT+8</SysPubdate>
+    <SysLanguage/>
+  </System>
+  <Custom>
+    <SpecialInfoReport>
+      <Inforce>1</Inforce>
+      <wx_group_push>default</wx_group_push>
+      <ValidFor>2026-11-19 07:00</ValidFor>
+      <ExpireIn Unit="Hour"/>
+      <Title>
+        <Chinese>ç¹å¥å¤©æ°£ä¿¡æ¯</Chinese>
+        <Portuguese>InformaÃ§Ã£o meteorolÃ³gica especial</Portuguese>
+        <English>Special Weather Information</English>
+      </Title>
+      <Event>
+        <Chinese>æ°£è±¡å±å·²ç¼åºç¹å¥ä¿¡æ¯</Chinese>
+        <Portuguese>Foi emitida uma informaÃ§Ã£o especial.</Portuguese>
+        <English>The special information has been issued.</English>
+        <Code>1-2</Code>
+        <SigUpdate>0</SigUpdate>
+        <Icon></Icon>
+      </Event>
+      <Description>
+        <Chinese>åä¸è¡å¼·çæ±åå­£é¢¨å½±é¿ï¼é ææ¬æ¾³é¢¨åå°é6ç´åæé£é¢¨ï¼æ°£æº«é¡¯èä¸éï¼ä»æ¥(11æ19æ¥)æä½æ°£æº«ç´çºææ°16åº¦ï¼é±äº(20æ¥)å°é²ä¸æ­¥ä¸éè³14åº¦ï¼ç±æ¼å¤©è²å¤é²åæå¹¾é£å¾®é¨ï¼æº«åº¦é«ææè¼å¯¦éæº«åº¦æ´ä½ï¼è«å¸æ°çæå¤©æ°£è®åï¼æ³¨æä¿æã(æ¼ 2026å¹´11æ19æ¥07æ00å æ´æ°)</Chinese>
+        <Portuguese>Sob a influÃªncia de uma intensa monÃ§Ã£o de nordeste, prevÃª-se que o vento em Macau atinja a forÃ§a 6 com rajadas e que a temperatura registe uma descida acentuada. Hoje (19 de Novembro), a temperatura mÃ­nima serÃ¡ de cerca de 16 Â°C, descendo ainda mais para 14 Â°C na sexta-feira (dia 20). Devido ao cÃ©u muito nublado e a alguns chuviscos, a sensaÃ§Ã£o tÃ©rmica serÃ¡ inferior Ã  temperatura real. Apela-se aos cidadÃ£os que prestem atenÃ§Ã£o Ã s alteraÃ§Ãµes meteorolÃ³gicas e tomem medidas contra o tempo frio.( Data de actualizaÃ§Ã£o: 2026-11-19 07H00 )</Portuguese>
+        <English>Under the influence of a strong northeast monsoon, winds in Macao are expected to reach force 6 with gusts, and temperature will drop significantly. The minimum temperature will be around 16 degrees Celsius today (19th Nov), and will drop further to 14 degrees on Friday (20th Nov). As the skies will be cloudy with some light rain patches, the apparent temperature will be lower than the actual temperature. The public is advised to pay attention to the weather changes and take precautions to stay warm.( Update Time: 2026-11-19 07H00 )</English>
+        <Chinese_feed>1</Chinese_feed>
+        <Portuguese_feed>1</Portuguese_feed>
+        <English_feed>1</English_feed>
+      </Description>
+      <TTS>
+        <Chinese>åä¸è¡å¼·çæ±åå­£é¢¨å½±é¿ï¼é ææ¬æ¾³é¢¨åå°é6ç´åæé£é¢¨ï¼æ°£æº«é¡¯èä¸éï¼ä»æ¥(11æ19æ¥)æä½æ°£æº«ç´çºææ°16åº¦ï¼é±äº(20æ¥)å°é²ä¸æ­¥ä¸éè³14åº¦ï¼ç±æ¼å¤©è²å¤é²åæå¹¾é£å¾®é¨ï¼æº«åº¦é«ææè¼å¯¦éæº«åº¦æ´ä½ï¼è«å¸æ°çæå¤©æ°£è®åï¼æ³¨æä¿æã(æ¼ 2026å¹´11æ19æ¥07æ00å æ´æ°)</Chinese>
+        <Portuguese>Sob a influÃªncia de uma intensa monÃ§Ã£o de nordeste, prevÃª-se que o vento em Macau atinja a forÃ§a 6 com rajadas e que a temperatura registe uma descida acentuada. Hoje (19 de Novembro), a temperatura mÃ­nima serÃ¡ de cerca de 16 Â°C, descendo ainda mais para 14 Â°C na sexta-feira (dia 20). Devido ao cÃ©u muito nublado e a alguns chuviscos, a sensaÃ§Ã£o tÃ©rmica serÃ¡ inferior Ã  temperatura real. Apela-se aos cidadÃ£os que prestem atenÃ§Ã£o Ã s alteraÃ§Ãµes meteorolÃ³gicas e tomem medidas contra o tempo frio.( Data de actualizaÃ§Ã£o: 2026-11-19 07H00 )</Portuguese>
+        <English>Under the influence of a strong northeast monsoon, winds in Macao are expected to reach force 6 with gusts, and temperature will drop significantly. The minimum temperature will be around 16 degrees Celsius today (19th Nov), and will drop further to 14 degrees on Friday (20th Nov). As the skies will be cloudy with some light rain patches, the apparent temperature will be lower than the actual temperature. The public is advised to pay attention to the weather changes and take precautions to stay warm.( Update Time: 2026-11-19 07H00 )</English>
+      </TTS>
+    </SpecialInfoReport>
+  </Custom>
+</SpecialInfo>
