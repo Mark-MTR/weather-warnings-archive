@@ -27,7 +27,7 @@
   "mo_SS_prob_xml": "68444da0d02d8e5afb3db6c4e16a0f5e",
   "mo_TC_prob_xml": "4df24c0b2c9c2c728ee8da60ae79f597",
   "mo_hc_air_xml": "5140d30df37bee4f40ef5bd2a18e6f68",
-  "mo_tempDropAlert_xml": "5702571e3a1b81a20d06f5307d260066",
+  "mo_tempDropAlert_xml": "6fecf7ef7009e18530a525a5fd615325",
   "mo_temperatureAlert_xml": "9d2d7012678eaf1fa400d84a2f9c2469",
   "mo_rainstormWarning": "4adc2ba78f788f7af2dae934a24e6853",
   "mo_thunderstormWarning": "22d25b77a66ebacbdfe0e989260f12a2",
@@ -37,6 +37,6 @@
   "mo_activeWarning": "c28b779f8a1045785d832ce9a20e387d",
   "mo_invalidWarning": "47658c8be9c13e2975ddcf974d33e0a9",
   "mo_tsunamiWarning": "5f899799968015c5d1f17a8f51931544",
-  "mo_specialAlert": "741ae2721e1d0438fc9f3d72f3070f1d",
+  "mo_specialAlert": "bb4c4943a7aa24e0bb368ab1a97fc37a",
   "mo_fireRiskAlert_xml": "c92cb4ef6842bee6a9c1e9bc77b6db79"
 }
