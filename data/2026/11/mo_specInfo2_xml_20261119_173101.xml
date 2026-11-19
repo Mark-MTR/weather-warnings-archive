@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SpecType="2">
+  <System>
+    <SysAuthor>SMG-CPT</SysAuthor>
+    <SysPubdate>2026-11-19 17:30 GMT+8</SysPubdate>
+    <SysLanguage/>
+  </System>
+  <Custom>
+    <SpecialInfoReport>
+      <Inforce>1</Inforce>
+      <wx_group_push>default</wx_group_push>
+      <ValidFor>2026-11-19 17:30</ValidFor>
+      <ExpireIn Unit="Hour"/>
+      <Title>
+        <Chinese>ç¹å¥å¤©æ°£ä¿¡æ¯</Chinese>
+        <Portuguese>InformaÃ§Ã£o meteorolÃ³gica especial</Portuguese>
+        <English>Special Weather Information</English>
+      </Title>
+      <Event>
+        <Chinese>æ°£è±¡å±å·²ç¼åºç¹å¥ä¿¡æ¯</Chinese>
+        <Portuguese>Foi emitida uma informaÃ§Ã£o especial.</Portuguese>
+        <English>The special information has been issued.</English>
+        <Code>1-2</Code>
+        <SigUpdate>0</SigUpdate>
+        <Icon></Icon>
+      </Event>
+      <Description>
+        <Chinese>åæ±åå­£é¢¨è£åå½±é¿ï¼æ¬æ¾³ææ¥(11æ20æ¥)ä»ç¶å¤é²ä¼´æå¹¾é£å¾®é¨ï¼æ°£æº«å°éæ­¥ä¸éè³ç´ææ°14åº¦ï¼æº«åº¦é«ææè¼å¯¦éæº«åº¦æ´ä½ï¼é±å­(21æ¥)å¤©æ°£ä»ç¶æ¸æ¶¼ï¼æ¥éé¨ä»½æéæé½åï¼è«å¸æ°çæå¤©æ°£è®åï¼æ³¨æä¿æã(æ¼ 2026å¹´11æ19æ¥17æ30å æ´æ°)</Chinese>
+        <Portuguese>Sob a influÃªncia de um reforÃ§o da monÃ§Ã£o de nordeste, o cÃ©u em Macau vai continuar muito nublado com alguns chuviscos amanhÃ£ (20 de Novembro). A temperatura vai descer gradualmente para cerca de 14 Â°C, sendo a sensaÃ§Ã£o tÃ©rmica de frio inferior Ã  temperatura real. No sÃ¡bado (dia 21), o tempo vai manter-se fresco, com perÃ­odos de cÃ©u pouco nublado durante o dia. Apela-se aos cidadÃ£os que prestem atenÃ§Ã£o Ã s alteraÃ§Ãµes meteorolÃ³gicas e tomem medidas contra o tempo frio.( Data de actualizaÃ§Ã£o: 2026-11-19 17H30 )</Portuguese>
+        <English>Under the influence of a replenishment of northeast monsoon, Macao will remain cloudy with a few light rain patches tomorrow (20th Nov). The temperatures will gradually drop to around 14 degrees Celsius and the apparent temperature will be lower than the actual temperature. On Saturday (21st Nov), the weather will remain cool and sunny periods during the day. The public is advised to pay attention to the weather changes and take precautions to stay warm.( Update Time: 2026-11-19 17H30 )</English>
+        <Chinese_feed>1</Chinese_feed>
+        <Portuguese_feed>1</Portuguese_feed>
+        <English_feed>1</English_feed>
+      </Description>
+      <TTS>
+        <Chinese>åæ±åå­£é¢¨è£åå½±é¿ï¼æ¬æ¾³ææ¥(11æ20æ¥)ä»ç¶å¤é²ä¼´æå¹¾é£å¾®é¨ï¼æ°£æº«å°éæ­¥ä¸éè³ç´ææ°14åº¦ï¼æº«åº¦é«ææè¼å¯¦éæº«åº¦æ´ä½ï¼é±å­(21æ¥)å¤©æ°£ä»ç¶æ¸æ¶¼ï¼æ¥éé¨ä»½æéæé½åï¼è«å¸æ°çæå¤©æ°£è®åï¼æ³¨æä¿æã(æ¼ 2026å¹´11æ19æ¥17æ30å æ´æ°)</Chinese>
+        <Portuguese>Sob a influÃªncia de um reforÃ§o da monÃ§Ã£o de nordeste, o cÃ©u em Macau vai continuar muito nublado com alguns chuviscos amanhÃ£ (20 de Novembro). A temperatura vai descer gradualmente para cerca de 14 Â°C, sendo a sensaÃ§Ã£o tÃ©rmica de frio inferior Ã  temperatura real. No sÃ¡bado (dia 21), o tempo vai manter-se fresco, com perÃ­odos de cÃ©u pouco nublado durante o dia. Apela-se aos cidadÃ£os que prestem atenÃ§Ã£o Ã s alteraÃ§Ãµes meteorolÃ³gicas e tomem medidas contra o tempo frio.( Data de actualizaÃ§Ã£o: 2026-11-19 17H30 )</Portuguese>
+        <English>Under the influence of a replenishment of northeast monsoon, Macao will remain cloudy with a few light rain patches tomorrow (20th Nov). The temperatures will gradually drop to around 14 degrees Celsius and the apparent temperature will be lower than the actual temperature. On Saturday (21st Nov), the weather will remain cool and sunny periods during the day. The public is advised to pay attention to the weather changes and take precautions to stay warm.( Update Time: 2026-11-19 17H30 )</English>
+      </TTS>
+    </SpecialInfoReport>
+  </Custom>
+</SpecialInfo>
