@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TempAlert xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <System>
+    <SysAuthor>SMG-CPT</SysAuthor>
+    <SysPubdate>2026-11-20 17:04:00  GMT+8</SysPubdate>
+    <SysLanguage/>
+  </System>
+  <Custom>
+    <TempAlertReport>
+      <Status>1</Status>
+      <Inforce>cold</Inforce>
+      <Telegram>1</Telegram>
+      <ValidFor>2026-11-20 17:05  GMT+8</ValidFor>
+      <Title>
+        <Chinese>é»è²ä½æº«æç¤º</Chinese>
+        <Portuguese>Alerta para temperaturas baixas, amarelo</Portuguese>
+        <English>Yellow cold weather alert</English>
+      </Title>
+      <Description>
+        <Chinese>é ææ¬æ¾³ä»æå©æ¥å¤©æ°£å¯å·ï¼æä½æ°£æº«çº12åº¦æä»¥ä¸ï¼å¸æ°å°¤å¶æ¯é·èãå¹¼ååé·æçæ£èæé©ç¶æ·»è¡£ï¼æ³¨æä¿æã (æ¼ 2026å¹´11æ20æ¥17æ05å æ´æ°)</Chinese>
+        <Portuguese>Hoje e amanhÃ£, prevÃª-se que o tempo na regiÃ£o seja frio e a temperatura mÃ­nima desÃ§a aos 12 graus Celsius ou valores inferiores. Aconselha-se Ã  populaÃ§Ã£o, particularmente, aos idosos, crianÃ§as e Ã s pessoas com doenÃ§as crÃ³nicas que prestem atenÃ§Ã£o Ã s condiÃ§Ãµes meteorolÃ³gicas e se agasalhem bem. ( Data de actualizaÃ§Ã£o: 2026-11-20 17H05 )</Portuguese>
+        <English>It is expected to be cold in Macao today and tomorrow. The minimum temperature will be 12Â°C or below. The public, especially the elderly, children and persons with chronic illnesses are advised to put on more clothes to keep warm. ( Update Time: 2026-11-20 17H05 )</English>
+        <Chinese_feed>1</Chinese_feed>
+        <Portuguese_feed>1</Portuguese_feed>
+        <English_feed>1</English_feed>
+        <redirectURL>
+          <Chinese>/zh/subpage/232/page/350</Chinese>
+          <English>/en/subpage/232/page/350</English>
+          <Portuguese>/pt/subpage/232/page/350</Portuguese>
+        </redirectURL>
+      </Description>
+      <ShortDescription>
+        <Chinese>æ°£è±¡å±å·²ç¼åºé»è²ä½æº«æç¤ºï¼é ææ¬æ¾³ä»æå©æ¥å¤©æ°£å¯å·ï¼è«å¸æ°é©ç¶æ·»è¡£ï¼æ³¨æä¿æã</Chinese>
+        <Portuguese>O Alerta para temperaturas baixas, amarelo foi emitido. Hoje e amanhÃ£, prevÃª-se que o tempo na regiÃ£o seja frio. Aconselha-se Ã  populaÃ§Ã£o que prestem atenÃ§Ã£o Ã s condiÃ§Ãµes meteorolÃ³gicas e se agasalhem bem.</Portuguese>
+        <English>The yellow cold weather alert was issued by SMG. It is expected to be cold in Macao today and tomorrow. The public are advised to put on more clothes to keep warm.</English>
+      </ShortDescription>
+      <TTS>
+        <Chinese>æ°£è±¡å±å·²ç¼åºé»è²ä½æº«æç¤ºï¼é ææ¬æ¾³ä»æå©æ¥å¤©æ°£å¯å·ï¼è«å¸æ°é©ç¶æ·»è¡£ï¼æ³¨æä¿æã</Chinese>
+        <Portuguese>O Alerta para temperaturas baixas, amarelo foi emitido. Hoje e amanhÃ£, prevÃª-se que o tempo na regiÃ£o seja frio. Aconselha-se Ã  populaÃ§Ã£o que prestem atenÃ§Ã£o Ã s condiÃ§Ãµes meteorolÃ³gicas e se agasalhem bem.</Portuguese>
+        <English>The yellow cold weather alert was issued by SMG. It is expected to be cold in Macao today and tomorrow. The public are advised to put on more clothes to keep warm.</English>
+      </TTS>
+      <Icon>
+        <IconURL>https://cdn.dsmg.gov.mo/assets/icons/cold.png</IconURL>
+      </Icon>
+    </TempAlertReport>
+    <Complementary>
+      <Tips>
+        <Chinese>å»ºè­°å¬ç¾æ³¨æä»¥ä¸äºé ï¼ 
+		1. å¢æ·»é©ç¶çç¦¦å¯è¡£ç©ã
+		2. æ¥å¤æº«å·®å¯è½è¼å¤§ï¼éæ³¨ææ©æä½æº«ã
+		3. çæå¯å·å¤©æ°£å¯è½å¼è´ä½æº«çãå¼å¸éæå¿è¡ç®¡ç­ç¾çï¼å°¤å¶é·èãå¹¼åãå­å©¦åé·æçæ£ã
+		4. ä½¿ç¨ç±æ°´å¨æé»æçç­å¨å·æææ³¨æå®¤å§ç©ºæ°£æµéåä½¿ç¨å®å¨ã
+		5. æéè¦äººå£«å¯åæéç¤¾ç¦å®ä½æ¥è©¢æ±å©ã</Chinese>
+        <Portuguese>RecomendaÃ§Ãµes:
+		1. Deve agasalhar-se bem.
+		2. Preste atenÃ§Ã£o Ã s temperaturas baixas pela manhÃ£ e Ã  noite.
+		3. Tenha atenÃ§Ã£o que o tempo frio pode causar hipotermia, doenÃ§as respiratÃ³rias ou cardiovasculares, especialmente, em idosos, crianÃ§as, grÃ¡vidas e pessoas com doenÃ§as crÃ³nicas.
+		4. Preste atenÃ§Ã£o Ã  circulaÃ§Ã£o de ar no interior de casa e Ã  seguranÃ§a, ao utilizar aparelhos como esquentadores a gÃ¡s ou aquecedores elÃ©ctricos.
+		5. Pessoas com necessidades podem solicitar ajuda a instituiÃ§Ãµes de solidariedade social.</Portuguese>
+        <English>Members of the public should note the following:
+		1. Wear warm clothing appropriately.
+		2. Large temperature difference between day and night. Beware of the cold weather in the morning and evening.
+		3. Cold weather could trigger hypothermia, respiratory or cardiovascular diseases, especially among the elderly, children, pregnant women, and persons with chronic illnesses.
+		4. Use heaters with care and maintain indoor ventilation.
+		5. Consult social welfare services if necessary.</English>
+      </Tips>
+      <Other>
+        <Chinese/>
+        <Portuguese/>
+        <English/>
+      </Other>
+    </Complementary>
+  </Custom>
+</TempAlert>
