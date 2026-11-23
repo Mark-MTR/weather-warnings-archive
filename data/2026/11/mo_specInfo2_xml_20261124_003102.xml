@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SpecType="2">
+  <System>
+    <SysAuthor>SMG-CPT</SysAuthor>
+    <SysPubdate>2026-11-24 00:13 GMT+8</SysPubdate>
+    <SysLanguage/>
+  </System>
+  <Custom>
+    <SpecialInfoReport>
+      <Inforce>1</Inforce>
+      <wx_group_push>default</wx_group_push>
+      <ValidFor>2026-11-24 00:10</ValidFor>
+      <ExpireIn Unit="Hour"/>
+      <Title>
+        <Chinese>ç¹å¥å¤©æ°£ä¿¡æ¯</Chinese>
+        <Portuguese>InformaÃ§Ã£o meteorolÃ³gica especial</Portuguese>
+        <English>Special Weather Information</English>
+      </Title>
+      <Event>
+        <Chinese>æ°£è±¡å±å·²ç¼åºç¹å¥å¤©æ°£ä¿¡æ¯</Chinese>
+        <Portuguese>Foi emitido um aviso meteorolÃ³gico especial.</Portuguese>
+        <English>The special weather advisory has been issued.</English>
+        <Code>1-1</Code>
+        <SigUpdate>0</SigUpdate>
+        <Icon></Icon>
+      </Event>
+      <Description>
+        <Chinese>ä¸éå·éæ­£ç§»è¿å»£æ±æ²¿å²¸ï¼é ææ¬æ¾³ä»æ¥(11æ24æ¥)åæé©é¨è¼é »å¯ï¼é¨å¾åæ±åå­£é¢¨å½±é¿ï¼åé¢¨å°æå¢å¼·ï¼é¢¨åé6ç´åæé£é¢¨ï¼æ°£æº«éå§ä¸éï¼é±ä¸åé±å(25å26æ¥)å¤©æ°£æ¸æ¶¼ï¼æä½æ°£æº«ç´çºææ°15åº¦ï¼è«å¸æ°çæå¤©æ°£è®åï¼é©ææ·»è¡£ã&#13;
+å¦ä¸æ¹é¢ï¼æªä¾æ¸æ¥æ­£å¼å¤©æå¤§æ½®ï¼é±ä¸(25æ¥)æéå§æ¸¯ä¸å¸¶æåºç¾æµ·æ°´åçï¼è«å¸æ°çæã(æ¼ 2026å¹´11æ24æ¥00æ10å æ´æ°)</Chinese>
+        <Portuguese>Uma frente fria estÃ¡ a aproximar-se da costa de Guangdong, prevÃªm-se aguaceiros relativamente frequentes em Macau ao inÃ­cio do dia de hoje (24 de Novembro). Posteriormente, sob a influÃªncia da monÃ§Ã£o de Nordeste, o vento de Norte vai intensificar-se, atingindo a forÃ§a 6 com rajadas, e a temperatura vai comeÃ§ar a descer. PrevÃª-se tempo fresco na Quarta-feira e na Quinta-feira (dias 25 e 26), com a temperatura mÃ­nima a rondar os 15 Â°C. Apela-se Ã  populaÃ§Ã£o atenÃ§Ã£o Ã s alteraÃ§Ãµes meteorolÃ³gicas e que tomem medidas contra o tempo frio.&#13;
+&#13;
+Por outro lado, devido Ã  ocorrÃªncia de marÃ©s astronÃ³micas nos prÃ³ximos dias, vÃ£o registar-se inundaÃ§Ãµes por refluxo de Ã¡gua do mar na zona do Porto Interior na noite de Quarta-feira (dia 25), pelo que se apela que os cidadÃ£os tomem atenÃ§Ã£o.( Data de actualizaÃ§Ã£o: 2026-11-24 00H10 )</Portuguese>
+        <English>A cold front is approaching the coastal area of Guangdong. Showers are expected to be quite frequent in Macao at the early morning (24th Nov). Subsequently, under the influence of the northeast monsoon, northerly winds will strengthen, reaching force 6 with gusts, and temperature will begin to drop. On Wednesday and Thursday (25th and 26th Nov), the weather will be cool, with minimum temperature around 15 degrees Celsius. The public is advised to pay attention to the weather changes and take appropriate measures.&#13;
+Additionally, due to astronomical tides in the coming days, seawater inundation is expected within the Inner Harbor area on Wednesday(25th Nov) night. The public is advised to pay attention.( Update Time: 2026-11-24 00H10 )</English>
+        <Chinese_feed>1</Chinese_feed>
+        <Portuguese_feed>1</Portuguese_feed>
+        <English_feed>1</English_feed>
+      </Description>
+      <TTS>
+        <Chinese>ä¸éå·éæ­£ç§»è¿å»£æ±æ²¿å²¸ï¼é ææ¬æ¾³ä»æ¥(11æ24æ¥)åæé©é¨è¼é »å¯ï¼é¨å¾åæ±åå­£é¢¨å½±é¿ï¼åé¢¨å°æå¢å¼·ï¼é¢¨åé6ç´åæé£é¢¨ï¼æ°£æº«éå§ä¸éï¼é±ä¸åé±å(25å26æ¥)å¤©æ°£æ¸æ¶¼ï¼æä½æ°£æº«ç´çºææ°15åº¦ï¼è«å¸æ°çæå¤©æ°£è®åï¼é©ææ·»è¡£ã&#13;
+å¦ä¸æ¹é¢ï¼æªä¾æ¸æ¥æ­£å¼å¤©æå¤§æ½®ï¼é±ä¸(25æ¥)æéå§æ¸¯ä¸å¸¶æåºç¾æµ·æ°´åçï¼è«å¸æ°çæã(æ¼ 2026å¹´11æ24æ¥00æ10å æ´æ°)</Chinese>
+        <Portuguese>Uma frente fria estÃ¡ a aproximar-se da costa de Guangdong, prevÃªm-se aguaceiros relativamente frequentes em Macau ao inÃ­cio do dia de hoje (24 de Novembro). Posteriormente, sob a influÃªncia da monÃ§Ã£o de Nordeste, o vento de Norte vai intensificar-se, atingindo a forÃ§a 6 com rajadas, e a temperatura vai comeÃ§ar a descer. PrevÃª-se tempo fresco na Quarta-feira e na Quinta-feira (dias 25 e 26), com a temperatura mÃ­nima a rondar os 15 Â°C. Apela-se Ã  populaÃ§Ã£o atenÃ§Ã£o Ã s alteraÃ§Ãµes meteorolÃ³gicas e que tomem medidas contra o tempo frio.&#13;
+&#13;
+Por outro lado, devido Ã  ocorrÃªncia de marÃ©s astronÃ³micas nos prÃ³ximos dias, vÃ£o registar-se inundaÃ§Ãµes por refluxo de Ã¡gua do mar na zona do Porto Interior na noite de Quarta-feira (dia 25), pelo que se apela que os cidadÃ£os tomem atenÃ§Ã£o.( Data de actualizaÃ§Ã£o: 2026-11-24 00H10 )</Portuguese>
+        <English>A cold front is approaching the coastal area of Guangdong. Showers are expected to be quite frequent in Macao at the early morning (24th Nov). Subsequently, under the influence of the northeast monsoon, northerly winds will strengthen, reaching force 6 with gusts, and temperature will begin to drop. On Wednesday and Thursday (25th and 26th Nov), the weather will be cool, with minimum temperature around 15 degrees Celsius. The public is advised to pay attention to the weather changes and take appropriate measures.&#13;
+Additionally, due to astronomical tides in the coming days, seawater inundation is expected within the Inner Harbor area on Wednesday(25th Nov) night. The public is advised to pay attention.( Update Time: 2026-11-24 00H10 )</English>
+      </TTS>
+    </SpecialInfoReport>
+  </Custom>
+</SpecialInfo>
