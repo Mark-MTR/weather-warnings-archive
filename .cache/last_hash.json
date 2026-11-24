@@ -1,7 +1,7 @@
 {
   "szWarn_all": "a32620ef1fdae71a0a7351e5214d48ce",
   "szAlarm": "8915e59c4200228ffca81d20cd007733",
-  "hk_swt": "ab672beb2580826814009c8da19d233c",
+  "hk_swt": "863e9c10faa9be6d558195ec51c3391d",
   "mo_specInfo": "eaf3ca7d739f13e2e6e3316bbb3fbc6c",
   "mo_specInfo2": "826ff93701b05b3c0fa52c7c937b67d4",
   "mo_specInfo3": "55711f7e83c465291d3f0974f3b44d7f",
@@ -20,8 +20,8 @@
   "mo_SSprob": "3539dfaba199e8b0cb4b25e6f33d6b46",
   "mo_TCprob": "16ba783d2aede76395438d090718daef",
   "szWarnPre": "474b557ef5c09952cf57eb11c538c982",
-  "mo_specInfo_xml": "e71e0dd5cc3e0b29aeaed3f903ddd0c1",
-  "mo_specInfo2_xml": "30a0d6f46cf6076da914b3058de5d203",
+  "mo_specInfo_xml": "c2bbffa6e3dd7e16f0883886adc96223",
+  "mo_specInfo2_xml": "411325ff3157af01d4965b55275cd4e3",
   "mo_specInfo3_xml": "9f31de52ebf099c9742c23aa82fe2d5d",
   "mo_specInfo4_xml": "1b9e04f7f5d02dbc1f36d03f108b26a0",
   "mo_SS_prob_xml": "68444da0d02d8e5afb3db6c4e16a0f5e",
@@ -37,6 +37,6 @@
   "mo_activeWarning": "c28b779f8a1045785d832ce9a20e387d",
   "mo_invalidWarning": "47658c8be9c13e2975ddcf974d33e0a9",
   "mo_tsunamiWarning": "5f899799968015c5d1f17a8f51931544",
-  "mo_specialAlert": "1d152cae926a673d5bd0879fc6f60a43",
+  "mo_specialAlert": "db7e6b8fa0a192e40f20759caa1cf589",
   "mo_fireRiskAlert_xml": "c92cb4ef6842bee6a9c1e9bc77b6db79"
 }
