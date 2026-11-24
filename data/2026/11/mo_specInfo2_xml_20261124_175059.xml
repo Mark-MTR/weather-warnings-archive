@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SpecType="2">
+  <System>
+    <SysAuthor>SMG-CPT</SysAuthor>
+    <SysPubdate>2026-11-24 17:30 GMT+8</SysPubdate>
+    <SysLanguage/>
+  </System>
+  <Custom>
+    <SpecialInfoReport>
+      <Inforce>1</Inforce>
+      <wx_group_push>default</wx_group_push>
+      <ValidFor>2026-11-24 17:30</ValidFor>
+      <ExpireIn Unit="Hour"/>
+      <Title>
+        <Chinese>ç¹å¥å¤©æ°£ä¿¡æ¯</Chinese>
+        <Portuguese>InformaÃ§Ã£o meteorolÃ³gica especial</Portuguese>
+        <English>Special Weather Information</English>
+      </Title>
+      <Event>
+        <Chinese>æ°£è±¡å±å·²ç¼åºç¹å¥å¤©æ°£ä¿¡æ¯</Chinese>
+        <Portuguese>Foi emitido um aviso meteorolÃ³gico especial.</Portuguese>
+        <English>The special weather advisory has been issued.</English>
+        <Code>1-1</Code>
+        <SigUpdate>0</SigUpdate>
+        <Icon></Icon>
+      </Event>
+      <Description>
+        <Chinese>åæ±åå­£é¢¨å½±é¿ï¼æ¬æ¾³é¢¨åå°éä¸­é6ç´åæé£é¢¨ï¼æ°£æº«ç¥éï¼é æé±ä¸åé±å(11æ25å26æ¥)å¤©æ°£æ¸æ¶¼åæå¹¾é£å¾®é¨ï¼æä½æ°£æº«ç´çºææ°15åº¦ï¼è«å¸æ°çæå¤©æ°£è®åï¼é©ææ·»è¡£ã&#13;
+å¦ä¸æ¹é¢ï¼æªä¾æ¸æ¥æ­£å¼å¤©æå¤§æ½®ï¼é±ä¸(25æ¥)æéå§æ¸¯ä¸å¸¶æåºç¾æµ·æ°´åçï¼è«å¸æ°çæã(æ¼ 2026å¹´11æ24æ¥17æ30å æ´æ°)</Chinese>
+        <Portuguese>Sob a influÃªncia da monÃ§Ã£o de Nordeste, o vento em Macau pode atingir ocasionalmente a forÃ§a 6 com rajadas e a temperatura vai registar uma ligeira descida. PrevÃª-se tempo fresco com alguns chuviscos na Quarta-feira e na Quinta-feira (25 e 26 de Novembro), com a temperatura mÃ­nima a rondar os 15 Â°C. Apela-se Ã  populaÃ§Ã£o que preste atenÃ§Ã£o Ã s alteraÃ§Ãµes meteorolÃ³gicas e adopte medidas de protecÃ§Ã£o contra o frio.&#13;
+Por outro lado, devido Ã  ocorrÃªncia de marÃ©s astronÃ³micas nos prÃ³ximos dias, vÃ£o registar-se inundaÃ§Ãµes por refluxo de Ã¡gua do mar na zona do Porto Interior na noite de Quarta-feira (dia 25), pelo que se apela que os cidadÃ£os tomem atenÃ§Ã£o.&#13;
+( Data de actualizaÃ§Ã£o: 2026-11-24 17H30 )</Portuguese>
+        <English>Under the influence of the northeast monsoon, northerly winds will occasionally reach force 6 with gusts, and temperature will drop slightly. The weather is expected to be cool with some light rain patches on Wednesday and Thursday (25th and 26th Nov), with minimum temperature around 15 degrees Celsius. The public is advised to pay attention to the weather changes and take appropriate measures.&#13;
+Additionally, due to astronomical tides in the coming days, seawater inundation is expected within the Inner Harbor area on Wednesday(25th Nov) night. The public are advised to pay attention.&#13;
+( Update Time: 2026-11-24 17H30 )</English>
+        <Chinese_feed>1</Chinese_feed>
+        <Portuguese_feed>1</Portuguese_feed>
+        <English_feed>1</English_feed>
+      </Description>
+      <TTS>
+        <Chinese>åæ±åå­£é¢¨å½±é¿ï¼æ¬æ¾³é¢¨åå°éä¸­é6ç´åæé£é¢¨ï¼æ°£æº«ç¥éï¼é æé±ä¸åé±å(11æ25å26æ¥)å¤©æ°£æ¸æ¶¼åæå¹¾é£å¾®é¨ï¼æä½æ°£æº«ç´çºææ°15åº¦ï¼è«å¸æ°çæå¤©æ°£è®åï¼é©ææ·»è¡£ã&#13;
+å¦ä¸æ¹é¢ï¼æªä¾æ¸æ¥æ­£å¼å¤©æå¤§æ½®ï¼é±ä¸(25æ¥)æéå§æ¸¯ä¸å¸¶æåºç¾æµ·æ°´åçï¼è«å¸æ°çæã(æ¼ 2026å¹´11æ24æ¥17æ30å æ´æ°)</Chinese>
+        <Portuguese>Sob a influÃªncia da monÃ§Ã£o de Nordeste, o vento em Macau pode atingir ocasionalmente a forÃ§a 6 com rajadas e a temperatura vai registar uma ligeira descida. PrevÃª-se tempo fresco com alguns chuviscos na Quarta-feira e na Quinta-feira (25 e 26 de Novembro), com a temperatura mÃ­nima a rondar os 15 Â°C. Apela-se Ã  populaÃ§Ã£o que preste atenÃ§Ã£o Ã s alteraÃ§Ãµes meteorolÃ³gicas e adopte medidas de protecÃ§Ã£o contra o frio.&#13;
+Por outro lado, devido Ã  ocorrÃªncia de marÃ©s astronÃ³micas nos prÃ³ximos dias, vÃ£o registar-se inundaÃ§Ãµes por refluxo de Ã¡gua do mar na zona do Porto Interior na noite de Quarta-feira (dia 25), pelo que se apela que os cidadÃ£os tomem atenÃ§Ã£o.&#13;
+( Data de actualizaÃ§Ã£o: 2026-11-24 17H30 )</Portuguese>
+        <English>Under the influence of the northeast monsoon, northerly winds will occasionally reach force 6 with gusts, and temperature will drop slightly. The weather is expected to be cool with some light rain patches on Wednesday and Thursday (25th and 26th Nov), with minimum temperature around 15 degrees Celsius. The public is advised to pay attention to the weather changes and take appropriate measures.&#13;
+Additionally, due to astronomical tides in the coming days, seawater inundation is expected within the Inner Harbor area on Wednesday(25th Nov) night. The public are advised to pay attention.&#13;
+( Update Time: 2026-11-24 17H30 )</English>
+      </TTS>
+    </SpecialInfoReport>
+  </Custom>
+</SpecialInfo>
