@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SpecType="2">
+  <System>
+    <SysAuthor>SMG-CPT</SysAuthor>
+    <SysPubdate>2026-11-26 00:14 GMT+8</SysPubdate>
+    <SysLanguage/>
+  </System>
+  <Custom>
+    <SpecialInfoReport>
+      <Inforce>1</Inforce>
+      <wx_group_push>default</wx_group_push>
+      <ValidFor>2026-11-26 00:10</ValidFor>
+      <ExpireIn Unit="Hour"/>
+      <Title>
+        <Chinese>ç¹å¥å¤©æ°£ä¿¡æ¯</Chinese>
+        <Portuguese>InformaÃ§Ã£o meteorolÃ³gica especial</Portuguese>
+        <English>Special Weather Information</English>
+      </Title>
+      <Event>
+        <Chinese>æ°£è±¡å±å·²ç¼åºç¹å¥å¤©æ°£ä¿¡æ¯</Chinese>
+        <Portuguese>Foi emitido um aviso meteorolÃ³gico especial.</Portuguese>
+        <English>The special weather advisory has been issued.</English>
+        <Code>1-1</Code>
+        <SigUpdate>0</SigUpdate>
+        <Icon></Icon>
+      </Event>
+      <Description>
+        <Chinese>åæ±åå­£é¢¨å½±é¿ï¼é æä»æ¥(11æ26æ¥)å¤©æ°£æ¸æ¶¼ååææå¹¾é£å¾®é¨ï¼æä½æ°£æº«ç´çºææ°14åº¦ï¼è«å¸æ°çæå¤©æ°£è®åï¼é©ææ·»è¡£ã&#13;
+å¦ä¸æ¹é¢ï¼ç±æ¼æ­£å¼å¤©æå¤§æ½®ï¼ä»æ(26æ¥)å§æ¸¯ä¸å¸¶æåºç¾æµ·æ°´åçï¼è«å¸æ°çæã&#13;
+(æ¼ 2026å¹´11æ26æ¥00æ10å æ´æ°)</Chinese>
+        <Portuguese>Sob a influÃªncia de uma monÃ§Ã£o de Nordeste, prevÃª-se tempo fresco com alguns chuviscos o inÃ­cio de hoje  (26 de Novembro), com a temperatura mÃ­nima a rondar os 14 Â°C. Apela-se Ã  populaÃ§Ã£o que preste atenÃ§Ã£o Ã s alteraÃ§Ãµes meteorolÃ³gicas e adopte medidas de protecÃ§Ã£o contra o frio.&#13;
+Por outro lado, devido Ã  ocorrÃªncia de marÃ©s astronÃ³micas nos prÃ³ximos dias, vÃ£o registar-se inundaÃ§Ãµes por refluxo de Ã¡gua do mar na zona do Porto Interior na noite de Quinta-feira (26 de Novembro), pelo que se apela que os cidadÃ£os tomem atenÃ§Ã£o.&#13;
+( Data de actualizaÃ§Ã£o: 2026-11-26 00H10 )</Portuguese>
+        <English>Under the influence of the northeast monsoon, the weather is expected to be cool with some light rain patches early today (26th Nov), with minimum temperature around 14 degrees Celsius. The public is advised to pay attention to the weather changes and take appropriate measures.&#13;
+Additionally, due to astronomical tide, seawater inundation is expected within the Inner Harbor area tonight(26th Nov). The public is advised to pay attention.&#13;
+( Update Time: 2026-11-26 00H10 )</English>
+        <Chinese_feed>1</Chinese_feed>
+        <Portuguese_feed>1</Portuguese_feed>
+        <English_feed>1</English_feed>
+      </Description>
+      <TTS>
+        <Chinese>åæ±åå­£é¢¨å½±é¿ï¼é æä»æ¥(11æ26æ¥)å¤©æ°£æ¸æ¶¼ååææå¹¾é£å¾®é¨ï¼æä½æ°£æº«ç´çºææ°14åº¦ï¼è«å¸æ°çæå¤©æ°£è®åï¼é©ææ·»è¡£ã&#13;
+å¦ä¸æ¹é¢ï¼ç±æ¼æ­£å¼å¤©æå¤§æ½®ï¼ä»æ(26æ¥)å§æ¸¯ä¸å¸¶æåºç¾æµ·æ°´åçï¼è«å¸æ°çæã&#13;
+(æ¼ 2026å¹´11æ26æ¥00æ10å æ´æ°)</Chinese>
+        <Portuguese>Sob a influÃªncia de uma monÃ§Ã£o de Nordeste, prevÃª-se tempo fresco com alguns chuviscos o inÃ­cio de hoje  (26 de Novembro), com a temperatura mÃ­nima a rondar os 14 Â°C. Apela-se Ã  populaÃ§Ã£o que preste atenÃ§Ã£o Ã s alteraÃ§Ãµes meteorolÃ³gicas e adopte medidas de protecÃ§Ã£o contra o frio.&#13;
+Por outro lado, devido Ã  ocorrÃªncia de marÃ©s astronÃ³micas nos prÃ³ximos dias, vÃ£o registar-se inundaÃ§Ãµes por refluxo de Ã¡gua do mar na zona do Porto Interior na noite de Quinta-feira (26 de Novembro), pelo que se apela que os cidadÃ£os tomem atenÃ§Ã£o.&#13;
+( Data de actualizaÃ§Ã£o: 2026-11-26 00H10 )</Portuguese>
+        <English>Under the influence of the northeast monsoon, the weather is expected to be cool with some light rain patches early today (26th Nov), with minimum temperature around 14 degrees Celsius. The public is advised to pay attention to the weather changes and take appropriate measures.&#13;
+Additionally, due to astronomical tide, seawater inundation is expected within the Inner Harbor area tonight(26th Nov). The public is advised to pay attention.&#13;
+( Update Time: 2026-11-26 00H10 )</English>
+      </TTS>
+    </SpecialInfoReport>
+  </Custom>
+</SpecialInfo>
