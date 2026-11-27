@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FireRiskAlert xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <System>
+    <SysAuthor>SMG-DDI</SysAuthor>
+    <SysPubdate>2026-11-28 00:13:00 GMT+8</SysPubdate>
+    <SysLanguage/>
+  </System>
+  <Custom>
+    <FireRiskAlertReport>
+      <Status>1</Status>
+      <Inforce>2</Inforce>
+      <Telegram>1</Telegram>
+      <ValidFor>2026-11-28 00:15 GMT+8</ValidFor>
+      <Title>
+        <Chinese>ç«ç½é¢¨éªæç¤º</Chinese>
+        <Portuguese>Alerta de Risco de IncÃªndio</Portuguese>
+        <English>Fire Risk Alert</English>
+      </Title>
+      <Description>
+        <Chinese>é ææ¬æ¾³ä»æå©æ¥å¤©æ°£ä¹¾ç¥ï¼ç«ç½é¢¨éªé«ï¼è«å¸æ°çæå®¶å±é»å¨åå¤åºæçç¨ç«å®å¨ï¼å°å¿é²ç«ã (æ¼ 2026å¹´11æ28æ¥00æ15å æ´æ°)</Chinese>
+        <Portuguese>PrevÃª-se tempo seco em Macau hoje e amanhÃ£, com estas condiÃ§Ãµes o risco de incÃªndio Ã© alto. RecomendaÃ§Ãµes imediatas: Utilize equipamentos domÃ©sticos elÃ©tricos em seguranÃ§a para evitar curto-circuitos, adopte medidas preventivas para reduzir o risco de incÃªndios. ( Data de actualizaÃ§Ã£o: 2026-11-28 00H15 )</Portuguese>
+        <English>Dry weather is expected in Macao today and tomorrow; under these conditions, the fire risk is high. Recommendations: Use household electrical appliances safely to prevent short circuits; take preventive measures to reduce the risk of fires. ( Update Time: 2026-11-28 at 00H15 )</English>
+        <Chinese_feed>1</Chinese_feed>
+        <Portuguese_feed>1</Portuguese_feed>
+        <English_feed>1</English_feed>
+        <redirectURL>
+          <Chinese>/zh-hant/fire-risk-alert</Chinese>
+          <English>/en/fire-risk-alert</English>
+          <Portuguese>/pt/fire-risk-alert</Portuguese>
+        </redirectURL>
+      </Description>
+      <ShortDescription>
+        <Chinese>æ°£è±¡å±å·²ç¼åºç«ç½é¢¨éªæç¤ºï¼é ææ¬æ¾³ä»æå©æ¥å¤©æ°£ä¹¾ç¥ï¼ç«ç½é¢¨éªé«ï¼è«å¸æ°å°å¿é²ç«ã</Chinese>
+        <Portuguese>A DSMG emitiu o Alerta de Risco de IncÃªndio. PrevÃª-se tempo seco em Macau hoje e amanhÃ£, com estas condiÃ§Ãµes o risco de incÃªndio Ã© alto. RecomendaÃ§Ãµes imediatas: Adopte medidas preventivas para reduzir o risco de incÃªndios.</Portuguese>
+        <English>The DSMG has issued a Fire Risk Alert. Dry weather is expected in Macao today and tomorrow; under these conditions, the fire risk is high. Please take preventive measures to reduce the risk of fires.</English>
+      </ShortDescription>
+      <TTS>
+        <Chinese>æ°£è±¡å±å·²ç¼åºç«ç½é¢¨éªæç¤ºï¼é ææ¬æ¾³ä»æå©æ¥å¤©æ°£ä¹¾ç¥ï¼ç«ç½é¢¨éª"é«"ï¼è«å¸æ°å°å¿é²ç«ã</Chinese>
+        <Portuguese>A DSMG emitiu o Alerta de Risco de IncÃªndio. PrevÃª-se tempo seco em Macau hoje e amanhÃ£, com estas condiÃ§Ãµes o risco de incÃªndio Ã© alto. RecomendaÃ§Ãµes imediatas: Adopte medidas preventivas para reduzir o risco de incÃªndios.</Portuguese>
+        <English>The DSMG has issued a Fire Risk Alert. Dry weather is expected in Macao today and tomorrow; under these conditions, the fire risk is high. Please take preventive measures to reduce the risk of fires.</English>
+      </TTS>
+      <Icon>
+        <IconURL>https://cdn.dsmg.gov.mo/assets/icons/fireRiskAlert.png</IconURL>
+      </Icon>
+    </FireRiskAlertReport>
+    <Complementary>
+      <Tips>
+        <Chinese>å»ºè­°å¬ç¾æ³¨æä»¥ä¸äºé ï¼
+1.å®ææª¢æ¥åä¿é¤é»å¨è¨­åï¼é¿åé»ç·èåæç­è·¯å¼ç¼ç«è­¦ã
+2.å¥é¹åé¦ç­æå¨åé©å¨ç¿å§çåï¼æ³¨æçç«ä½¿ç¨å®å¨ï¼åå¿çä¸æªå¾¹åºçæ»çç«ç¨®ã
+3.ä¿æå¤§å»èµ°å»åæ¨æ¢¯æ¢éï¼åå¿å æ¾éç©é»ç¤éçï¼ä¿æé²çéå¸¸éã
+4.ç¢ºä¿å·¥ä½å ´ææå®¶å±çæ»ç«ç­èæ¼ææçæåé¨æå¯å¾ã
+5.é²è¡ééæ´»åæï¼åå¿é¨æä¸æ£æªçæ»çç«æ´æçé ­ã
+6.é¿åå¨å¼·é¢¨ä¸é²è¡ä»»ä½å½¢å¼çé²å¤©ççï¼å¦åå¾æéèã
+7.ç¼ç¾ä»»ä½çé§æç«è­¦è·¡è±¡ï¼æç«å³è´é»ç·æ¥ç±ç·éå ±ã</Chinese>
+        <Portuguese>Recomenda-se ao pÃºblico que preste atenÃ§Ã£o aos seguintes pontos:
+1. Inspeccione e faÃ§a a manutenÃ§Ã£o regular de aparelhos elÃ©ctricos; evite incÃªndios causados pelo envelhecimento de instalaÃ§Ãµes elÃ©ctricas e por curto-circuitos.
+2. Queime papÃ©is votivos e incensos em locais apropriados; nÃ£o deixe brasas ou fogueiras sem supervisÃ£o e adopte medidas preventivas para reduzir o risco de incÃªndios.
+3. Mantenha os corredores e as escadas desobstruÃ­dos; nÃ£o acumule objectos em vias de evacuaÃ§Ã£o e certifique-se que as portas corta-fogo estÃ£o sempre fechadas.
+4. Assegure-se que os equipamentos de combate a incÃªndios no local de trabalho e em casa estÃ£o sempre disponÃ­veis e actualizados.
+5. Apague correctamente pontas de cigarro ou outras fontes de igniÃ§Ã£o nos passeios ao ar livre.
+6. NÃ£o realize queimadas (lixo ou ervas secas) em dias de vento forte.
+7. Em caso de fumo ou sinais de incÃªndio; contacte imediatamente os serviÃ§os de emergÃªncia.</Portuguese>
+        <English>The public is advised to pay attention to the following points:
+1. Regularly inspect and maintain electrical appliances to prevent fires caused by aging wiring and short circuits.
+2. Burn joss paper and incense sticks in a suitable container. Pay attention to fire safety, and never leave any unextinguished fires behind.
+3. Ensure that hallways and stairways remain clear, never pile up items in them. Always keep fire doors closed.
+4. Ensure that fire extinguishers are valid and easily accessible in workplaces or homes.
+5. Never throw away unextinguished matches or cigarette butts during outdoor activities.
+6. Avoid open burnings (such as rubbish or grass) in strong winds.
+7. If you notice any smoke or signs of fire, please contact the emergency hotline immediately.</English>
+      </Tips>
+      <Other>
+        <Chinese/>
+        <Portuguese/>
+        <English/>
+      </Other>
+    </Complementary>
+  </Custom>
+</FireRiskAlert>
